@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta property="og:type" content='website' />
+	<meta property="og:title" content="SYSMETIC">
+	<meta property='og:site_name' content='SYSMETIC' />
+	<meta property="og:title" content='SYSMETIC' />
+	<meta property="og:description" content='SYSMETIC' />
+	<title>상품검색 | SYSMETIC</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/sub.css">
+	<link rel="stylesheet" href="../css/jquery_ui.css">
+	<script src="../js/jquery-1.10.1.min.js"></script>
+	<script src="../js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="../js/html5shiv.js"></script>
+	<script src="../js/common.js"></script>
+</head>
+<body>
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header">
+			<div class="area">
+				<h1 class="header_logo"><a href="javascript:;"><img src="../images/common/img_header_logo.png" alt="SYSMETIC" /></a></h1>
+				<div class="cont_box">
+					<!-- 로그인 전
+					<div class="member before_login">
+						<div class="links">
+							<a href="javascript:;">로그인</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">회원가입</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">이용안내</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">고객센터</a>
+						</div>
+						<a href="javascript:;" class="btn_bigdata">주식 빅데이터</a>
+					</div>
+					<!-- //로그인 전 -->
+					<!-- 로그인 후 -->
+					<div class="member after_login">
+						<div class="links">
+							<a href="javascript:;"><img src="../images/common/ico_header_coffee.png" alt="" /> My Lounge</a>
+							<a href="javascript:;">PB 게시판</a>
+							<a href="javascript:;">마이페이지</a>
+							<a href="javascript:;">로그아웃</a>
+						</div>
+						<a href="javascript:;" class="btn_bigdata">주식 빅데이터</a>
+					</div>
+					<!-- //로그인 후 -->
+					<!-- gnb -->
+					<nav class="gnb">
+						<ul>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb01_off.png" alt="투자하기" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0101.png" alt="전략랭킹" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0102.png" alt="PB/트레이더" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0103.png" alt="상품검색" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0104.png" alt="전략 포트폴리오" /></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb02_off.png" alt="투자받기" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0201.png" alt="전략등록" /></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb03_off.png" alt="Lounge" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0301.png" alt="My Lounge" /></a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<!-- //gnb -->
+				</div>
+			</div>
+		</header>
+		<!-- header -->
+		<!-- container -->
+		<div class="container">
+			<nav class="snb">
+				<div class="snb_area">
+					<h2 class="page_title n_squere">투자하기</h2>
+					<ul>
+						<li class="strategy_ranking"><a href="javascript:;"><img src="../images/sub/txt_snb0101_off.png" alt="전략랭킹" /></a></li>
+						<li class="pb_trader"><a href="javascript:;"><img src="../images/sub/txt_snb0102_off.png" alt="PB/트레이더" /></a></li>
+						<li class="product_search curr"><a href="javascript:;"><img src="../images/sub/txt_snb0103_on.png" alt="상품검색" /></a></li>
+						<li class="strategy_portfolio"><a href="javascript:;"><img src="../images/sub/txt_snb0104_off.png" alt="전략 포트폴리오" /></a></li>
+					</ul>
+				</div>
+			</nav>
+			<section class="area in_snb product_search">
+				<div class="product_search_wrap">
+					<div class="side">
+						<nav class="category">
+							<ul>
+								<li class="curr"><a href="javsacript:;">항목별</a></li>
+								<li><a href="javsacript:;">알고리즘별</a></li>
+							</ul>
+						</nav>
+						<div class="group item show">
+							<ul>
+								<li>
+									<a href="javascript:;">운용 방식</a>
+									<div class="hide_box">
+										<ul class="check_list">
+											<li>
+												<input type="checkbox" id="check_item0101" name="check_item0101" />
+												<label for="check_item0101">Manual Trading</label>
+											</li>
+											<li>
+												<input type="checkbox" id="check_item0102" name="check_item0102" />
+												<label for="check_item0102">System Trading</label>
+											</li>
+											<li class="two">
+												<input type="checkbox" id="check_item0103" name="check_item0103" />
+												<label for="check_item0103">Hybrid Trading<br />(Manual + System)</label>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="javascript:;">운용 주기</a>
+									<div class="hide_box">
+										hide box
+									</div>
+								</li>
+								<li>
+									<a href="javascript:;">운용 종목</a>
+									<div class="hide_box">
+										hide box
+									</div>
+								</li>
+								<li>
+									<a href="javascript:;">증권사</a>
+									<div class="hide_box">
+										hide box
+									</div>
+								</li>
+								<li>
+									<a href="javascript:;">기간</a>
+									<div class="hide_box">
+										hide box
+									</div>
+								</li>
+								<li>
+									<a href="javascript:;">기간</a>
+									<div class="hide_box">
+										hide box
+									</div>
+								</li>
+								<li>
+									<a href="javascript:;">수익률</a>
+									<div class="hide_box">
+										<div class="custom_selectbox">
+											<label for="year_ror">년간 수익률</label>
+											<select id="year_ror" name="year_ror">
+												<option value="" selected="selected">년간 수익률</option>
+												<option value="">조건2</option>
+												<option value="">조건3</option>
+											</select>
+										</div>
+										<ul class="check_list">
+											<li>
+												<input type="checkbox" id="check_item0601" name="check_item0601" />
+												<label for="check_item0601">10% 이하</label>
+											</li>
+											<li>
+												<input type="checkbox" id="check_item0602" name="check_item0602" />
+												<label for="check_item0602">10% ~ 20%</label>
+											</li>
+											<li>
+												<input type="checkbox" id="check_item0603" name="check_item0603" />
+												<label for="check_item0603">30% 이상</label>
+											</li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a href="javascript:;">원금</a>
+									<div class="hide_box">
+										<div class="min_max">
+											<div class="input_box">
+												<input type="text" id="" name="" placeholder="최소" />
+											</div>
+											<span class="dash">~</span>
+											<div class="input_box">
+												<input type="text" id="" name="" placeholder="최대" />
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="javascript:;">MDD</a>
+									<div class="hide_box">
+										<div class="min_max">
+											<div class="input_box">
+												<input type="text" id="" name="" placeholder="최소" />
+											</div>
+											<span class="dash">~</span>
+											<div class="input_box">
+												<input type="text" id="" name="" placeholder="최대" />
+											</div>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="javascript:;">SM Score</a>
+									<div class="hide_box">
+										<div class="min_max">
+											<div class="input_box">
+												<input type="text" id="" name="" placeholder="최소" />
+											</div>
+											<span class="dash">~</span>
+											<div class="input_box">
+												<input type="text" id="" name="" placeholder="최대" />
+											</div>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="group algorism">
+							<ul>
+								<li>
+									<input type="checkbox" id="algorism01" name="algorism01" />
+									<label for="algorism01">효율형 전략</label>
+								</li>
+								<li>
+									<input type="checkbox" id="algorism02" name="algorism02" />
+									<label for="algorism02">공격형 전략</label>
+								</li>
+								<li>
+									<input type="checkbox" id="algorism03" name="algorism03" />
+									<label for="algorism03">방어형 전략</label>
+								</li>
+							</ul>
+						</div>
+						<a href="javasript:;" class="btn_search">
+							<img src="../images/sub/ico_side_search.gif" alt="" />검색
+						</a>
+					</div>
+					<div class="result">
+						<!-- 검색 전 출력 -->
+						<div class="default_wrap">
+							<img src="../images/sub/ico_point.png" alt="!" />
+							<p class="txt_guide">
+								좌측에 있는 <strong class="mark">상품검색 옵션을 선택하신후 검색버튼</strong>을 누르시면<br />
+								상품을 검색하실 수 있습니다.
+							</p>
+						</div>
+						<!-- 검색결과 출력 -->
+						<div class="list_wrap">
+							<div class="list_header">
+								<strong class="row_tit" style="width:480px;">전략</strong>
+								<strong class="row_tit" style="width:126px;">그래프</strong>
+								<strong class="row_tit" style="width:140px;">수익률</strong>
+							</div>
+							<ul class="list_body">
+								<li>
+									<a href="javascript:;">
+										<div class="user_info">
+											<div class="photo"><img src="../images/img_face_sample.jpg" alt="" /></div>
+											<p class="nickname">설현사랑</p>
+										</div>
+										<div class="strategy">
+											<p class="subject">리치테크 FuturesDay Pyramiding</p>
+											<div class="options">
+												<span class="op_s">S</span>
+												<span class="op_d">D</span>
+												<span class="op_etf">주식/ETF</span>
+												<span class="op_k200_sun">K200선물</span>
+												<span class="op_k200_op">K200옵션</span>
+												<span class="op_out_sun">해외선물</span>
+												<span class="op_out_op">해외옵션</span>
+											</div>
+											<div class="etc_info">
+												<dl>
+													<dt>PB</dt>
+													<dd><img src="../images/sub/ico_list_pb.gif" alt="" />진박조</dd>
+												</dl>
+												<dl>
+													<dt>중개사</dt>
+													<dd>
+														<img src="../images/sub/img_logo_hi.gif" alt="하이투자증권" />
+													</dd>
+												</dl>
+											</div>
+										</div>
+										<div class="chart">
+											<!-- 실제 차트 적용 시 아래 bg 클래스 삭제해주세요 size : 127 * 119px -->
+											<div class="chart_area bg">
+												chart_area
+											</div>
+										</div>
+										<div class="cnt_stat">
+											<dl>
+												<dt>누적 수익률</dt>
+												<dd>120.10 %</dd>
+											</dl>
+											<dl>
+												<dt>최근 1년 수익률</dt>
+												<dd>30.1 %</dd>
+											</dl>
+										</div>
+									</a>
+									<input type="checkbox" id="check01" name="check01" />
+									<label for="check01"></label>
+								</li>
+								<li>
+									<a href="javascript:;">
+										<div class="user_info">
+											<div class="photo"><img src="../images/img_face_sample2.jpg" alt="" /></div>
+											<p class="nickname">겐지가 함께한다</p>
+										</div>
+										<div class="strategy">
+											<p class="subject">리치테크 FuturesDay Pyramiding</p>
+											<div class="options">
+												<span class="op_s">S</span>
+												<span class="op_d">D</span>
+												<span class="op_etf">주식/ETF</span>
+												<span class="op_k200_sun">K200선물</span>
+												<span class="op_k200_op">K200옵션</span>
+												<span class="op_out_sun">해외선물</span>
+												<span class="op_out_op">해외옵션</span>
+											</div>
+											<div class="etc_info">
+												<dl>
+													<dt>PB</dt>
+													<dd><img src="../images/sub/ico_list_pb.gif" alt="" />진박조</dd>
+												</dl>
+												<dl>
+													<dt>중개사</dt>
+													<dd>
+														<img src="../images/sub/img_logo_hi.gif" alt="하이투자증권" />
+													</dd>
+												</dl>
+											</div>
+										</div>
+										<div class="chart">
+											<!-- 실제 차트 적용 시 아래 bg 클래스 삭제해주세요 size : 127 * 119px -->
+											<div class="chart_area bg">
+												chart_area
+											</div>
+										</div>
+										<div class="cnt_stat">
+											<dl>
+												<dt>누적 수익률</dt>
+												<dd>120.10 %</dd>
+											</dl>
+											<dl>
+												<dt>최근 1년 수익률</dt>
+												<dd>30.1 %</dd>
+											</dl>
+										</div>
+									</a>
+									<input type="checkbox" id="check02" name="check02" />
+									<label for="check02"></label>
+								</li>
+								<li>
+									<a href="javascript:;">
+										<div class="user_info">
+											<div class="photo"><img src="../images/img_face_sample3.jpg" alt="" /></div>
+											<p class="nickname">니모나이드</p>
+										</div>
+										<div class="strategy">
+											<p class="subject">리치테크 FuturesDay Pyramiding</p>
+											<div class="options">
+												<span class="op_s">S</span>
+												<span class="op_d">D</span>
+												<span class="op_etf">주식/ETF</span>
+												<span class="op_k200_sun">K200선물</span>
+												<span class="op_k200_op">K200옵션</span>
+												<span class="op_out_sun">해외선물</span>
+												<span class="op_out_op">해외옵션</span>
+											</div>
+											<div class="etc_info">
+												<dl>
+													<dt>PB</dt>
+													<dd><img src="../images/sub/ico_list_pb.gif" alt="" />진박조</dd>
+												</dl>
+												<dl>
+													<dt>중개사</dt>
+													<dd>
+														<img src="../images/sub/img_logo_hi.gif" alt="하이투자증권" />
+													</dd>
+												</dl>
+											</div>
+										</div>
+										<div class="chart">
+											<!-- 실제 차트 적용 시 아래 bg 클래스 삭제해주세요 size : 127 * 119px -->
+											<div class="chart_area bg">
+												chart_area
+											</div>
+										</div>
+										<div class="cnt_stat">
+											<dl>
+												<dt>누적 수익률</dt>
+												<dd>120.10 %</dd>
+											</dl>
+											<dl>
+												<dt>최근 1년 수익률</dt>
+												<dd>30.1 %</dd>
+											</dl>
+										</div>
+									</a>
+									<input type="checkbox" id="check03" name="check03" />
+									<label for="check03"></label>
+								</li>
+							</ul>
+							<nav class="page_nate">
+								<a href="javascript:;" class="btn_page first">처음으로</a>
+								<a href="javascript:;" class="btn_page prev">이전</a>
+								<a href="javascript:;" class="direct curr">1</a>
+								<a href="javascript:;" class="direct">2</a>
+								<a href="javascript:;" class="direct">3</a>
+								<a href="javascript:;" class="direct">4</a>
+								<a href="javascript:;" class="direct">5</a>
+								<a href="javascript:;" class="direct">6</a>
+								<a href="javascript:;" class="btn_page next">다음</a>
+								<a href="javascript:;" class="btn_page last">마지막</a>
+							</nav>
+						</div>						
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- //container -->
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="top_area">
+				<div class="area">
+					<div class="links">
+						<a href="javascript:;">이용약관</a>
+						<a href="javascript:;" class="privacy">개인정보 취급방침</a>
+						<a href="javascript:;">교육안내</a>
+						<a href="javascript:;">서비스 이용안내</a>
+						<a href="javascript:;">회사소개</a>
+						<a href="javascript:;">공지사항</a>
+						<a href="javascript:;">주식 빅데이터</a>
+						<a href="javascript:;">Media Room</a>
+					</div>
+					<a href="#" class="btn_page_top"><img src="../images/common/btn_page_top.gif" alt="TOP" /></a>
+				</div>
+			</div>
+			<div class="bottom_area">
+				<div class="area">
+					<div class="footer_logo">
+						<img src="../images/common/img_footer_logo.png" alt="SYSMETIC" />
+					</div>
+					<div class="company_info">
+						<dl>
+							<dt>사업자 등록번호 : </dt>
+							<dd>711-86-00050</dd>
+						</dl>
+						<dl>
+							<dt>통신판매업신고 : </dt>
+							<dd>제2015-서울 영등포-1469호</dd>
+						</dl>
+						<dl>
+							<dt>특허출원번호 : </dt>
+							<dd>10-2016-00262203</dd>
+						</dl>
+						<dl>
+							<dt>주소지 : </dt>
+							<dd>서울시 영등포구 국제금융로2길 37, 2301호</dd>
+						</dl>
+						<p class="copyright"><img src="../images/common/txt_copyright.png" alt="COPYRIGHT ⓒ SYSMETIC ALL RIGHT RESERVED" /></p>
+					</div>
+					<div class="site_summary">
+						<p>
+							시스메틱의 모든 사이트의 내용은 정보를 제공하기 위함이며, 투자권유와 주식 및 파생상품<br />매매를 목적으로 하고 있지 않습니다. <br />
+							따라서 본 사이트의 수익률과 관련정보에 대해서는 (주)시스메틱은 어떠한 책임도 없습니다.<br />
+							또한 본 사이트를 통해 제공받게 되는 운용성과의 결과에 대해서도 (주)시스메틱은 <br />
+							어떠한 책임이 없으며 모든 책임과 활용되는 모든 정보는 투자자 본인의 책임입니다.
+						</p>
+					</div>
+				</div>				
+			</div>
+		</footer>
+		<!-- //footer -->
+	</div>
+	<!-- //wrapper -->
+
+<script>
+	//side category...
+	$('.product_search .side .category a').on('click', function(){
+		var idx = $('.product_search .side .category a').index(this);
+		$('.product_search .side .category li').removeClass('curr').eq(idx).addClass('curr');
+		$('.product_search .side .group').removeClass('show').eq(idx).addClass('show');
+	});
+	$('.product_search .side .group li a').on('click', function(){
+		if($(this).closest('li').hasClass('show')){
+			$(this).closest('li').removeClass('show');
+		}else{
+			$(this).closest('li').addClass('show');
+		}
+	});
+
+	//custom selectbox
+    var select = $('select');
+    for(var i = 0; i < select.length; i++){
+        var idxData = select.eq(i).children('option:selected').text();
+        select.eq(i).siblings('label').text(idxData);
+    }
+    select.change(function(){
+        var select_name = $(this).children("option:selected").text();
+        $(this).siblings("label").text(select_name);
+    });
+</script>
+</body>
+</html>

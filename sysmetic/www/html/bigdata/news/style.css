@@ -1,0 +1,153 @@
+.ui.form {
+  margin-bottom: 1em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card .meta span.publisher {
+  margin-right: 0 !important;
+}
+
+.text-orange {
+  color: #f2711c !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .ui.one.cards {
+    margin-left: -1em;
+    margin-right: -1em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .ui.one.cards {
+    margin-left: -0.5em;
+    margin-right: -0.5em;
+  }
+}
+
+@keyframes lds-facebook_1 {
+  0% {
+    top: 70px;
+    height: 60px;
+  }
+  50% {
+    top: 80px;
+    height: 40px;
+  }
+  100% {
+    top: 80px;
+    height: 40px;
+  }
+}
+@-webkit-keyframes lds-facebook_1 {
+  0% {
+    top: 70px;
+    height: 60px;
+  }
+  50% {
+    top: 80px;
+    height: 40px;
+  }
+  100% {
+    top: 80px;
+    height: 40px;
+  }
+}
+@keyframes lds-facebook_2 {
+  0% {
+    top: 72.5px;
+    height: 55px;
+  }
+  50% {
+    top: 80px;
+    height: 40px;
+  }
+  100% {
+    top: 80px;
+    height: 40px;
+  }
+}
+@-webkit-keyframes lds-facebook_2 {
+  0% {
+    top: 72.5px;
+    height: 55px;
+  }
+  50% {
+    top: 80px;
+    height: 40px;
+  }
+  100% {
+    top: 80px;
+    height: 40px;
+  }
+}
+@keyframes lds-facebook_3 {
+  0% {
+    top: 75px;
+    height: 50px;
+  }
+  50% {
+    top: 80px;
+    height: 40px;
+  }
+  100% {
+    top: 80px;
+    height: 40px;
+  }
+}
+@-webkit-keyframes lds-facebook_3 {
+  0% {
+    top: 75px;
+    height: 50px;
+  }
+  50% {
+    top: 80px;
+    height: 40px;
+  }
+  100% {
+    top: 80px;
+    height: 40px;
+  }
+}
+.lds-facebook {
+  position: relative;
+}
+.lds-facebook div {
+  position: absolute;
+  width: 30px;
+}
+.lds-facebook div:nth-child(1) {
+  left: 35px;
+  background: #cfcfcf;
+  -webkit-animation: lds-facebook_1 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation: lds-facebook_1 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  -webkit-animation-delay: -0.24s;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 85px;
+  background: #8c8482;
+  -webkit-animation: lds-facebook_2 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation: lds-facebook_2 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  -webkit-animation-delay: -0.12s;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 135px;
+  background: #666462;
+  -webkit-animation: lds-facebook_3 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  animation: lds-facebook_3 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook {
+  margin-bottom: 60px;
+  margin-top: 100px;
+  display: inline-block;
+  width: 100px !important;
+  height: 100px !important;
+  -webkit-transform: translate(-50px, -50px) scale(0.5) translate(50px, 50px);
+  transform: translate(-50px, -50px) scale(0.5) translate(50px, 50px);
+}
+

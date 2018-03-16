@@ -1,0 +1,401 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SYSMETIC</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<style type="text/css">
+	body{font-size:12px;font-family:'맑은 고딕';margin:0;padding:10px 10px;line-height:18px;}
+	P{margin:5px 0;padding:0;}
+	a{color:red;text-decoration:none;}
+	h1{font-size:15px;color:#fff;min-width:1000px;text-align:center;background:#939494;margin:0 0 5px;padding:10px 0;}
+	.fb{font-weight:bold;}
+	.infor{font-family:Verdana;width:100%;min-width:1000px;text-align:center;margin-bottom:10px;border:1px solid black;}
+	.infor tr.first th,.infor tr.first td{border:none;}
+	.infor td{padding:5px;}
+	.infor td.update{color:#f00;text-align:right;font-weight:bold;padding:0 20px;}
+	.infor.aL th{text-align:left;padding-left:10px;background:#ededed;border-top:1px dashed #ccc;}
+	.infor.aL td{text-align:left;border-top:1px dashed #ccc;}
+	.listTable{width:100%;min-width:1000px;color:#333;border-collapse:collapse;border-top:1px solid #ccc;border-right:1px solid #ccc;margin-bottom:30px;}
+	.listTable th,.listTable td{font-size:12px;border-left:1px solid #ccc;border-bottom:1px solid #ccc;}
+	.listTable th{font-weight:bold;background:#ededed;padding:2px;}
+	.listTable td{padding:2px 0 2px 7px;}
+	.listTable td span{font-size:9px;}
+	.listTable .tab1{display:none;}
+	.listTable .tab2{display:block;}
+	.gline td{border-top:3px solid #ccc;}
+	.comp td,tr td.comp,.not.comp td{background:#ffebef;}
+	.ing td,tr td.ing,.not.comp td.ing{background:#EDF9FD;}
+	.modify td,tr td.modify,.not.comp td.modify{background:#DCF5A0;}
+	.not td,tr td.not{background:#FFF6B9;}
+	.del td,tr td.del{background:#ddd;}
+	.spt td,tr td.spt{background:#ffea82;}
+	.del td a,tr td.del a{text-decoration:line-through;}
+	.red{color:red;}
+</style>
+</head>
+<body>
+<table cellspacing="3" class="infor">
+	<colgroup><col width="100px" /><col width="140px" /><col width="140px" /><col width="140px" /><col width="140px" /><col width="140px" /><col width="*" /></colgroup>
+	<tr>
+		<td>참고</td>
+		<td class="comp">완료<p>tr class="comp"</p></td>
+		<td class="ing">진행중<p>tr/td class="ing"</p></td>
+		<td class="modify">수정<p>tr/td class="modify"</p></td>
+		<td class="not">대기 / 2차오픈<p>tr class="not"</p></td>
+		<td class="del">삭제<p>tr class="del"</p></td>
+		<td class="update">최종업데이트날짜 : 2016.11.23</td>
+	</tr>
+</table>
+
+<table cellspacing="0" class="infor aL">
+	<colgroup><col width="180px" /><col width="*" /></colgroup>
+	<tr class="first">
+		<th>작업시 참고</th>
+		<td>
+			-
+		</td>
+	</tr>
+</table>
+<h1>SYSMETIC 웹사이트</h1>
+<table class="listTable">
+	<colgroup>
+		<col width="8%" />
+		<col width="11%" />
+		<col width="11%" />
+		<col width="11%" />
+		<col width="10%" />
+		<col width="17%" />
+	<col width="*" /></colgroup>
+	<thead>
+	<tr>
+		<th height="20">1Depth</th>
+		<th>2Depth</th>
+		<th>3Depth</th>
+		<th>File Name</th>
+		<th>-</th>
+		<th>etc</th>
+	</tr>
+	</thead>
+	<tbody>
+		<tr class="comp">
+			<td colspan="3">메인페이지</td>
+			<td><a href="index.html" target="_blank">index.html</a></td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr class="comp">
+			<td>로그인</td>
+			<td></td>
+			<td></td>
+			<td><a href="member/login.html" target="_blank">login.html</a></td>
+			<td></td>
+			<td>
+				- 이메일 찾기 레이어팝업<br />
+				- 비밀번호 재설정 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td>회원가입</td>
+			<td>step01</td>
+			<td>회원타입 선택</td>
+			<td><a href="member/join_step01.html" target="_blank">join_step01.html</a></td>
+			<td></td>
+			<td>- 수정</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>step02</td>
+			<td>약관동의</td>
+			<td><a href="member/join_step02.html" target="_blank">join_step02.html</a></td>
+			<td></td>
+			<td>- 수정</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>step03</td>
+			<td>정보 입력 (일반회원)</td>
+			<td><a href="member/join_step03_normal.html" target="_blank">join_step03_normal.html</a></td>
+			<td></td>
+			<td>- 이메일 중복 확인 레이어팝업</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>정보 입력 (트레이더 회원)</td>
+			<td><a href="member/join_step03_traider.html" target="_blank">join_step03_traider.html</a></td>
+			<td></td>
+			<td>- 이메일 중복 확인 레이어팝업</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>정보 입력 (PB회원)</td>
+			<td><a href="member/join_step03_pb.html" target="_blank">join_step03_pb.html</a></td>
+			<td></td>
+			<td>- 이메일 중복 확인 레이어팝업</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>step04</td>
+			<td>회원가입 완료</td>
+			<td><a href="member/join_complete.html" target="_blank">join_complete.html</a></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="comp">
+			<td>투자하기</td>
+			<td>메인</td>
+			<td></td>
+			<td><a href="investment/investment_main.html" target="_blank">investment_main.html</a></td>
+			<td></td>
+			<td>
+
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>상품랭킹</td>
+			<td>목록</td>
+			<td><a href="investment/product_ranking_list.html" target="_blank">product_ranking_list.html</a></td>
+			<td></td>
+			<td>
+				- Follow하기 레이어팝업<br />
+				- Follow완료 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세</td>
+			<td><a href="investment/product_ranking_detail.html" target="_blank">product_ranking_detail.html</a></td>
+			<td></td>
+			<td>
+				- Follow하기 레이어팝업<br />
+				- Follow완료 레이어팝업<br />
+				- 문의하기 레이어팝업<br />
+				- 문의완료 레이어팝업<br />
+				- 투자하기 레이어팝업<br />
+				- 투자신청완료 레이어팝업<br />
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>PB/트레이더</td>
+			<td>목록</td>
+			<td><a href="investment/pb_trader_list.html" target="_blank">pb_trader_list.html</a></td>
+			<td></td>
+			<td>
+				- 검색결과일 경우 title 주석 확인
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세(PB)</td>
+			<td><a href="investment/pb_trader_detail_pb.html" target="_blank">pb_trader_detail_pb.html</a></td>
+			<td></td>
+			<td>
+				- Follow하기 레이어팝업<br />
+				- Follow완료 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세(TRADER)</td>
+			<td><a href="investment/pb_trader_detail_trader.html" target="_blank">pb_trader_detail_trader.html</a></td>
+			<td></td>
+			<td>
+				- Follow하기 레이어팝업<br />
+				- Follow완료 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>상품검색</td>
+			<td>항목별</td>
+			<td><a href="investment/product_search_list_item.html" target="_blank">product_search_list_item.html</a></td>
+			<td></td>
+			<td>
+				- 상품 검색 전 화면 확인
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>알고리즘별</td>
+			<td><a href="investment/product_search_list_algorithm.html" target="_blank">product_search_list_algorithm.html</a></td>
+			<td></td>
+			<td>
+				- 상품 검색 전 화면 확인
+			</td>
+		</tr>
+		<tr class="ing">
+			<td></td>
+			<td>포트폴리오</td>
+			<td>목록</td>
+			<td><a href="investment/portfolio_ranking_list.html" target="_blank">portfolio_ranking_list.html</a></td>
+			<td></td>
+			<td>
+				-
+			</td>
+		</tr>
+		<tr class="ing">
+			<td></td>
+			<td></td>
+			<td>상세보기</td>
+			<td><a href="investment/portfolio_ranking_detail.html" target="_blank">portfolio_ranking_detail.html</a></td>
+			<td></td>
+			<td>
+				-
+			</td>
+		</tr>
+		<tr class="ing">
+			<td></td>
+			<td></td>
+			<td>만들기</td>
+			<td><a href="investment/make_portfolio.html" target="_blank">make_portfolio.html</a></td>
+			<td></td>
+			<td>
+				- 상품 선택 전 메시지 확인 <br />
+				- 안내 레이어팝업 (10개 이하로 추가)<br />
+				- 안내 레이어팝업 (환율적용)
+			</td>
+		</tr>
+		<tr class="ing">
+			<td></td>
+			<td></td>
+			<td>만들기 - 완료</td>
+			<td><a href="investment/make_portfolio_complete.html" target="_blank">make_portfolio_complete.html</a></td>
+			<td></td>
+			<td>
+
+			</td>
+		</tr>
+		<tr class="comp">
+			<td>투자받기</td>
+			<td>메인</td>
+			<td></td>
+			<td><a href="fund/fund_main.html" target="_blank">fund_main.html</a></td>
+			<td></td>
+			<td>
+
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>상품등록 - 트레이더</td>
+			<td></td>
+			<td><a href="fund/trader_product_regist.html" target="_blank">trader_product_regist.html</a></td>
+			<td></td>
+			<td>
+
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>상품등록 - PB</td>
+			<td></td>
+			<td><a href="fund/pb_product_regist.html" target="_blank">pb_product_regist.html</a></td>
+			<td></td>
+			<td>
+				- 트레이더 검색 후 row 확인 (주석참고)<br />
+				- 트레이더 선택 후 UI확인 (주석참고)
+			</td>
+		</tr>
+		<tr class="comp">
+			<td>Lounge</td>
+			<td>My Lounge</td>
+			<td>타임라인형</td>
+			<td><a href="lounge/my_lounge_timeline.html" target="_blank">my_lounge_timeline.html</a></td>
+			<td></td>
+			<td>
+
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>썸네일형</td>
+			<td><a href="lounge/my_lounge_thumbnail.html" target="_blank">my_lounge_thumbnail.html</a></td>
+			<td></td>
+			<td>
+
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>PB 개인 Lounge</td>
+			<td>메인</td>
+			<td><a href="lounge/pb_detail_main.html" target="_blank">pb_detail_main.html</a></td>
+			<td></td>
+			<td>
+
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>프로필</td>
+			<td><a href="lounge/pb_detail_profile.html" target="_blank">pb_detail_profile.html</a></td>
+			<td></td>
+			<td>
+
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>프로필 - 관리</td>
+			<td><a href="lounge/pb_detail_profile_manage.html" target="_blank">pb_detail_profile_manage.html</a></td>
+			<td></td>
+			<td>
+
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상품</td>
+			<td><a href="lounge/pb_detail_product.html" target="_blank">pb_detail_product.html</a></td>
+			<td></td>
+			<td>
+				- Follow하기 레이어팝업<br />
+				- Follow완료 레이어팝업
+			</td>
+		</tr>
+		<tr class="ing">
+			<td></td>
+			<td></td>
+			<td>상품</td>
+			<td><a href="lounge/pb_detail_portfolio.html" target="_blank">pb_detail_portfolio.html</a></td>
+			<td></td>
+			<td>
+				- Follow하기 레이어팝업<br />
+				- Follow완료 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>공지.칼럼 목록</td>
+			<td><a href="lounge/pb_detail_board_list.html" target="_blank">pb_detail_board_list.html</a></td>
+			<td></td>
+			<td>
+
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>공지.칼럼 상세보기</td>
+			<td><a href="lounge/pb_detail_board_detail.html" target="_blank">pb_detail_board_detail.html</a></td>
+			<td></td>
+			<td>
+
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

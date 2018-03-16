@@ -1,0 +1,14 @@
+
+Warning: session_start(): open(/var/lib/php/session/sess_50kb320qddu7reuikunm35v2m4, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-05-05 23:49:01] Start 345 St Analysis ======================== 
+
+[2017-05-05 23:59:56] Complete 345 St ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_50kb320qddu7reuikunm35v2m4, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0

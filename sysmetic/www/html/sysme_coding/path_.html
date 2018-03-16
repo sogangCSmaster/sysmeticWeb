@@ -1,0 +1,965 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TEST SYSMETIC</title>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<style type="text/css">
+	body{font-size:12px;font-family:'맑은 고딕';margin:0;padding:10px 10px;line-height:18px;}
+	P{margin:5px 0;padding:0;}
+	a{color:red;text-decoration:none;}
+	h1{font-size:15px;color:#fff;min-width:1000px;text-align:center;background:#939494;margin:0 0 5px;padding:10px 0;}
+	.fb{font-weight:bold;}
+	.infor{font-family:Verdana;width:100%;min-width:1000px;text-align:center;margin-bottom:10px;border:1px solid black;}
+	.infor tr.first th,.infor tr.first td{border:none;}
+	.infor td{padding:5px;}
+	.infor td.update{color:#f00;text-align:right;font-weight:bold;padding:0 20px;}
+	.infor.aL th{text-align:left;padding-left:10px;background:#ededed;border-top:1px dashed #ccc;}
+	.infor.aL td{text-align:left;border-top:1px dashed #ccc;}
+	.listTable{width:100%;min-width:1000px;color:#333;border-collapse:collapse;border-top:1px solid #ccc;border-right:1px solid #ccc;margin-bottom:30px;}
+	.listTable th,.listTable td{font-size:12px;border-left:1px solid #ccc;border-bottom:1px solid #ccc;}
+	.listTable th{font-weight:bold;background:#ededed;padding:2px;}
+	.listTable td{padding:2px 0 2px 7px;}
+	.listTable td span{font-size:9px;}
+	.listTable .tab1{display:none;}
+	.listTable .tab2{display:block;}
+	.gline td{border-top:3px solid #ccc;}
+	.comp td,tr td.comp,.not.comp td{background:#ffebef;}
+	.ing td,tr td.ing,.not.comp td.ing{background:#EDF9FD;}
+	.modify td,tr td.modify,.not.comp td.modify{background:#DCF5A0;}
+	.not td,tr td.not{background:#FFF6B9;}
+	.del td,tr td.del{background:#ddd;}
+	.spt td,tr td.spt{background:#ffea82;}
+	.del td a,tr td.del a{text-decoration:line-through;}
+	.red{color:red;}
+</style>
+</head>
+<body>
+<table cellspacing="3" class="infor">
+	<colgroup><col width="100px" /><col width="140px" /><col width="140px" /><col width="140px" /><col width="140px" /><col width="140px" /><col width="*" /></colgroup>
+	<tr>
+		<td>참고</td>
+		<td class="comp">완료<p>tr class="comp"</p></td>
+		<td class="ing">진행중<p>tr/td class="ing"</p></td>
+		<td class="modify">수정<p>tr/td class="modify"</p></td>
+		<td class="not">대기 / 2차오픈<p>tr class="not"</p></td>
+		<td class="del">삭제<p>tr class="del"</p></td>
+		<td class="update">최종업데이트날짜 : 2017.03.05</td>
+	</tr>
+</table>
+
+<table cellspacing="0" class="infor aL">
+	<colgroup><col width="180px" /><col width="*" /></colgroup>
+	<tr class="first">
+		<th>작업시 참고</th>
+		<td> 
+			- 	
+		</td>
+	</tr>
+</table>
+<h1>SYSMETIC 웹사이트</h1>
+<table class="listTable">
+	<colgroup>
+		<col width="8%" />
+		<col width="11%" />
+		<col width="11%" />
+		<col width="11%" />
+		<col width="10%" />
+		<col width="17%" />
+	<col width="*" /></colgroup>
+	<thead>
+	<tr>
+		<th height="20">1Depth</th>
+		<th>2Depth</th>
+		<th>3Depth</th>
+		<th>File Name</th>
+		<th>-</th>
+		<th>etc</th>
+	</tr>
+	</thead>
+	<tbody>
+		<tr class="comp">
+			<td colspan="3">메인페이지</td>
+			<td><a href="index.html" target="_blank">index.html</a></td>
+			<td>-</td>
+			<td></td>
+		</tr>
+		<tr class="comp">
+			<td>로그인</td>
+			<td></td>
+			<td></td>
+			<td><a href="member/login.html" target="_blank">login.html</a></td>
+			<td></td>
+			<td>
+				- 이메일 찾기 레이어팝업<br />
+				- 비밀번호 재설정 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td>회원가입</td>
+			<td>step01</td>
+			<td>회원타입 선택</td>
+			<td><a href="member/join_step01.html" target="_blank">join_step01.html</a></td>
+			<td></td>
+			<td>- 수정</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>step02</td>
+			<td>약관동의</td>
+			<td><a href="member/join_step02.html" target="_blank">join_step02.html</a></td>
+			<td></td>
+			<td>- 수정</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>step03</td>
+			<td>정보 입력 (일반회원)</td>
+			<td><a href="member/join_step03_normal.html" target="_blank">join_step03_normal.html</a></td>
+			<td></td>
+			<td>- 이메일 중복 확인 레이어팝업</td>
+		</tr>
+		<tr class="modify">
+			<td></td>
+			<td></td>
+			<td>정보 입력 (트레이더 회원)</td>
+			<td><a href="member/join_step03_traider.html" target="_blank">join_step03_traider.html</a></td>
+			<td></td>
+			<td>
+				- 이메일 중복 확인 레이어팝업<br />
+				- 프로필이미지 샘플선택 추가(03.01)<br />
+				- 샘플선택 레이어팝업(03.01)
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>정보 입력 (PB회원)</td>
+			<td><a href="member/join_step03_pb.html" target="_blank">join_step03_pb.html</a></td>
+			<td></td>
+			<td>- 이메일 중복 확인 레이어팝업</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>step04</td>
+			<td>회원가입 완료</td>
+			<td><a href="member/join_complete.html" target="_blank">join_complete.html</a></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="comp">
+			<td>투자하기</td>
+			<td>메인</td>
+			<td></td>
+			<td><a href="investment/investment_main.html" target="_blank">investment_main.html</a></td>
+			<td></td>
+			<td>
+
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>상품랭킹</td>
+			<td>목록</td>
+			<td><a href="investment/product_ranking_list.html" target="_blank">product_ranking_list.html</a></td>
+			<td></td>
+			<td>
+				- Follow하기 레이어팝업<br />
+				- Follow완료 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세</td>
+			<td><a href="investment/product_ranking_detail.html" target="_blank">product_ranking_detail.html</a></td>
+			<td></td>
+			<td>
+				- Follow하기 레이어팝업<br />
+				- Follow완료 레이어팝업<br />
+				- 문의하기 레이어팝업<br />
+				- 문의완료 레이어팝업<br />
+				- 투자하기 레이어팝업<br />
+				- 투자신청완료 레이어팝업<br />
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>PB/트레이더</td>
+			<td>목록</td>
+			<td><a href="investment/pb_trader_list.html" target="_blank">pb_trader_list.html</a></td>
+			<td></td>
+			<td>
+				- 검색결과일 경우 title 주석 확인
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세(PB)</td>
+			<td><a href="investment/pb_trader_detail_pb.html" target="_blank">pb_trader_detail_pb.html</a></td>
+			<td></td>
+			<td>
+				- Follow하기 레이어팝업<br />
+				- Follow완료 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세(TRADER)</td>
+			<td><a href="investment/pb_trader_detail_trader.html" target="_blank">pb_trader_detail_trader.html</a></td>
+			<td></td>
+			<td>
+				- Follow하기 레이어팝업<br />
+				- Follow완료 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>상품검색</td>
+			<td>항목별</td>
+			<td><a href="investment/product_search_list_item.html" target="_blank">product_search_list_item.html</a></td>
+			<td></td>
+			<td>
+				- 상품 검색 전 화면 확인
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>알고리즘별</td>
+			<td><a href="investment/product_search_list_algorithm.html" target="_blank">product_search_list_algorithm.html</a></td>
+			<td></td>
+			<td>
+				- 상품 검색 전 화면 확인
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>포트폴리오</td>
+			<td>목록</td>
+			<td><a href="investment/portfolio_ranking_list.html" target="_blank">portfolio_ranking_list.html</a></td>
+			<td></td>
+			<td>
+				- 
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세보기</td>
+			<td><a href="investment/portfolio_ranking_detail.html" target="_blank">portfolio_ranking_detail.html</a></td>
+			<td></td>
+			<td>
+				- 
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>만들기</td>
+			<td><a href="investment/make_portfolio.html" target="_blank">make_portfolio.html</a></td>
+			<td></td>
+			<td>
+				- 상품 선택 전 메시지 확인 <br />
+				- 안내 레이어팝업 (10개 이하로 추가)<br />
+				- 안내 레이어팝업 (환율적용)
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>만들기 - 완료</td>
+			<td><a href="investment/make_portfolio_complete.html" target="_blank">make_portfolio_complete.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td>투자받기</td>
+			<td>메인</td>
+			<td></td>
+			<td><a href="fund/fund_main.html" target="_blank">fund_main.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>상품등록 - 트레이더</td>
+			<td></td>
+			<td><a href="fund/trader_product_regist.html" target="_blank">trader_product_regist.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>상품등록 - PB</td>
+			<td></td>
+			<td><a href="fund/pb_product_regist.html" target="_blank">pb_product_regist.html</a></td>
+			<td></td>
+			<td>
+				- 트레이더 검색 후 row 확인 (주석참고)<br />
+				- 트레이더 선택 후 UI확인 (주석참고)
+			</td>
+		</tr>
+		<tr class="comp">
+			<td>Lounge</td>
+			<td>My Lounge</td>
+			<td>타임라인형</td>
+			<td><a href="lounge/my_lounge_timeline.html" target="_blank">my_lounge_timeline.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>썸네일형</td>
+			<td><a href="lounge/my_lounge_thumbnail.html" target="_blank">my_lounge_thumbnail.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>PB 개인 Lounge</td>
+			<td>메인</td>
+			<td><a href="lounge/pb_detail_main.html" target="_blank">pb_detail_main.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>프로필</td>
+			<td><a href="lounge/pb_detail_profile.html" target="_blank">pb_detail_profile.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>프로필 - 관리</td>
+			<td><a href="lounge/pb_detail_profile_manage.html" target="_blank">pb_detail_profile_manage.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상품</td>
+			<td><a href="lounge/pb_detail_product.html" target="_blank">pb_detail_product.html</a></td>
+			<td></td>
+			<td>
+				- Follow하기 레이어팝업<br />
+				- Follow완료 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>포트폴리오</td>
+			<td><a href="lounge/pb_detail_portfolio.html" target="_blank">pb_detail_portfolio.html</a></td>
+			<td></td>
+			<td>
+				- Follow하기 레이어팝업<br />
+				- Follow완료 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>공지.칼럼 목록</td>
+			<td><a href="lounge/pb_detail_board_list.html" target="_blank">pb_detail_board_list.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>공지.칼럼 상세보기</td>
+			<td><a href="lounge/pb_detail_board_detail.html" target="_blank">pb_detail_board_detail.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>공지.칼럼 글쓰기</td>
+			<td><a href="lounge/pb_detail_board_write.html" target="_blank">pb_detail_board_write.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상담하기 – Online 상담</td>
+			<td><a href="lounge/pb_online_counsel.html" target="_blank">pb_online_counsel.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>온라인상담 등록완료</td>
+			<td><a href="lounge/pb_online_counsel_complete.html" target="_blank">pb_online_counsel_complete.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상담하기 – Offline 상담</td>
+			<td><a href="lounge/pb_offline_counsel.html" target="_blank">pb_offline_counsel.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>오프라인상담 등록완료</td>
+			<td><a href="lounge/pb_offline_counsel_complete.html" target="_blank">pb_offline_counsel_complete.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>PB 평가</td>
+			<td><a href="lounge/pb_appraise.html" target="_blank">pb_appraise.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td>마이페이지</td>
+			<td>구독</td>
+			<td></td>
+			<td><a href="mypage/subscribe_list.html" target="_blank">subscribe_list.html</a></td>
+			<td></td>
+			<td>
+				- 구독취소 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>나의 관심상품</td>
+			<td></td>
+			<td><a href="mypage/my_favorite_list.html" target="_blank">my_favorite_list.html</a></td>
+			<td></td>
+			<td>
+				- 폴더삭제 레이어팝업<br />
+				- 상품 Unfollow 레이어팝업<br />
+				- 폴더 만들기 레이어팝업<br />
+				- 폴더명 변경 레이어팝업<br />
+				- 안내 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>나의 상품</td>
+			<td>목록</td>
+			<td><a href="mypage/my_product_list.html" target="_blank">my_product_list.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>등록 - 기본정보</td>
+			<td><a href="mypage/my_product_regist_tab01.html" target="_blank">my_product_regist_tab01.html</a></td>
+			<td></td>
+			<td>
+				- 비공개 관련 안내 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>등록 - 일간분석</td>
+			<td><a href="mypage/my_product_regist_tab02.html" target="_blank">my_product_regist_tab02.html</a></td>
+			<td></td>
+			<td>
+				- 일간분석 데이터 입력 레이어팝업<br />
+				- 일간분석 데이터 수정 레이어팝업<br />
+				- 주간분석 데이터 입력 레이어팝업<br />
+				- 주간분석 데이터 수정 레이어팝업<br />
+				- 전체 데이터 삭제 레이어팝업<br />
+				- 해당일자 데이터 삭제 레이어팝업<br />
+				- 엑셀업로드 레이어팝업<br />
+				- 업로드오류 레이어팝업<br />
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>등록 - 펀딩금액/투자지수</td>
+			<td><a href="mypage/my_product_regist_tab03.html" target="_blank">my_product_regist_tab03.html</a></td>
+			<td></td>
+			<td>
+				- 펀딩금액 / 투자자수 입력 레이어팝업<br />
+				- 펀딩금액 / 투자자수 수정 레이어팝업<br />
+				- 해당일자 데이터 삭제 레이어팝업<br />
+				- 엑셀업로드 레이어팝업<br />
+				- 업로드오류 레이어팝업<br />
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>등록 - 실계좌 정보</td>
+			<td><a href="mypage/my_product_regist_tab04.html" target="_blank">my_product_regist_tab04.html</a></td>
+			<td></td>
+			<td>
+				- 실계좌 인증 등록 레이어팝업<br />
+				- 이미지 상세보기 레이어팝업<br />
+				- 업로드오류 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>나의 포트폴리오</td>
+			<td>목록</td>
+			<td><a href="mypage/my_portfolio_list.html" target="_blank">my_portfolio_list.html</a></td>
+			<td></td>
+			<td>
+				- 포트폴리오 삭제 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세보기</td>
+			<td><a href="mypage/my_portfolio_detail.html" target="_blank">my_portfolio_detail.html</a></td>
+			<td></td>
+			<td>
+			
+			</td>
+		</tr>
+
+
+		<tr class="comp">
+			<td></td>
+			<td>나의 상담</td>
+			<td>목록(일반회원&amp;트레이더)</td>
+			<td><a href="mypage/my_counsel_list_normal.html" target="_blank">my_counsel_list_normal.html</a></td>
+			<td></td>
+			<td>
+			
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>목록(PB)</td>
+			<td><a href="mypage/my_counsel_list_pb.html" target="_blank">my_counsel_list_pb.html</a></td>
+			<td></td>
+			<td>
+			
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세보기(온라인 상담)</td>
+			<td><a href="mypage/my_counsel_detail_online.html" target="_blank">my_counsel_detail_online.html</a></td>
+			<td></td>
+			<td>
+				- 수정 레이어팝업<br />
+				- 삭제 레이어팝업
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세보기(오프라인 상담)</td>
+			<td><a href="mypage/my_counsel_detail_offline.html" target="_blank">my_counsel_detail_offline.html</a></td>
+			<td></td>
+			<td>
+				- 수정 레이어팝업<br />
+				- 삭제 레이어팝업
+			</td>
+		</tr>
+		
+		
+		
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>질문수정</td>
+			<td><a href="mypage/my_counsel_modify_question.html" target="_blank">my_counsel_modify_question.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>답변등록/수정</td>
+			<td><a href="mypage/my_counsel_answer.html" target="_blank">my_counsel_answer.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>나의 문의</td>
+			<td>목록(일반회원&nbsp;트레이더)</td>
+			<td><a href="mypage/my_request_list_normal.html" target="_blank">my_request_list_normal.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>목록(PB)</td>
+			<td><a href="mypage/my_request_list_pb.html" target="_blank">my_request_list_pb.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세보기</td>
+			<td><a href="mypage/my_request_detail.html" target="_blank">my_request_detail.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>나의 투자</td>
+			<td>목록(일반회원)</td>
+			<td><a href="mypage/my_investment_list_normal.html" target="_blank">my_investment_list_normal.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>목록(pb)</td>
+			<td><a href="mypage/my_investment_list_pb.html" target="_blank">my_investment_list_pb.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>고객센터 상담내역</td>
+			<td>목록</td>
+			<td><a href="mypage/cs_history_list.html" target="_blank">cs_history_list.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세보기</td>
+			<td><a href="mypage/cs_history_detail.html" target="_blank">cs_history_detail.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>내용수정</td>
+			<td><a href="mypage/cs_history_modify.html" target="_blank">cs_history_modify.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>개인정보수정</td>
+			<td>일반회원</td>
+			<td><a href="mypage/info_modify_normal.html" target="_blank">info_modify_normal.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>	
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>트레이더</td>
+			<td><a href="mypage/info_modify_traider.html" target="_blank">info_modify_traider.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>	
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>PB</td>
+			<td><a href="mypage/info_modify_pb.html" target="_blank">info_modify_pb.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>회원탈퇴</td>
+			<td></td>
+			<td><a href="mypage/withdrawal_member.html" target="_blank">withdrawal_member.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td>고객센터</td>
+			<td>공지사항</td>
+			<td>목록</td>
+			<td><a href="cs/notice_list.html" target="_blank">notice_list.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세보기</td>
+			<td><a href="cs/notice_detail.html" target="_blank">notice_detail.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>FAQ</td>
+			<td>목록</td>
+			<td><a href="cs/faq_list.html" target="_blank">faq_list.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>1:1 문의</td>
+			<td>작성</td>
+			<td><a href="cs/regist_direct_contact.html" target="_blank">regist_direct_contact.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>완료</td>
+			<td><a href="cs/complete_direct_contact.html" target="_blank">complete_direct_contact.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>Media Room</td>
+			<td></td>
+			<td><a href="cs/media_room_list.html" target="_blank">media_room_list.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>교육안내</td>
+			<td>온라인 목록</td>
+			<td><a href="cs/edu_online_list.html" target="_blank">edu_online_list.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>오프라인 목록</td>
+			<td><a href="cs/edu_offline_list.html" target="_blank">edu_offline_list.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세보기</td>
+			<td><a href="cs/edu_detail.html" target="_blank">edu_detail.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>Partners</td>
+			<td>목록</td>
+			<td><a href="cs/partner_list.html" target="_blank">partner_list.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td>PB전용게시판</td>
+			<td>PB게시판</td>
+			<td>목록</td>
+			<td><a href="pb/pb_board_list.html" target="_blank">pb_board_list.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>상세보기</td>
+			<td><a href="pb/pb_board_detail.html" target="_blank">pb_board_detail.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td></td>
+			<td>글쓰기</td>
+			<td><a href="pb/pb_board_write.html" target="_blank">pb_board_write.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td colspan="6" style="height:12px; background:#000;"></td>
+		</tr>
+		<tr class="comp">
+			<td>메일폼</td>
+			<td>온라인상담신청완료</td>
+			<td></td>
+			<td><a href="mailform/online_counsel_request_complete.html" target="_blank">online_counsel_request_complete.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>일반 회원 등록</td>
+			<td></td>
+			<td><a href="mailform/normal_member_regist_complete.html" target="_blank">normal_member_regist_complete.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>PB 회원 등록</td>
+			<td></td>
+			<td><a href="mailform/pb_member_regist_complete.html" target="_blank">pb_member_regist_complete.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>트레이더 회원 등록</td>
+			<td></td>
+			<td><a href="mailform/trader_member_regist_complete.html" target="_blank">trader_member_regist_complete.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>임시비밀번호</td>
+			<td></td>
+			<td><a href="mailform/temp_password.html" target="_blank">temp_password.html</a></td>
+			<td></td>
+			<td>
+				
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>온라인 교육과정 오픈안내</td>
+			<td></td>
+			<td><a href="mailform/notice_edu_open.html" target="_blank">notice_edu_open.html</a></td>
+			<td></td>
+			<td>
+				- 일반공지
+			</td>
+		</tr>
+		<tr class="comp">
+			<td></td>
+			<td>관심상품 변동사항</td>
+			<td></td>
+			<td><a href="mailform/favorite_product.html" target="_blank">favorite_product.html</a></td>
+			<td></td>
+			<td>
+				- 테이블
+			</td>
+		</tr>
+		
+	</tbody>
+</table>
+</body>
+</html>

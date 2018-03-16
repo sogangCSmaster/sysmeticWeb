@@ -1,0 +1,12 @@
+{
+    "require": {
+        "slim/slim": "*",
+        "slim/extras": "*",
+        "slim/middleware": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "API": "app/lib/"
+        }
+    }
+}

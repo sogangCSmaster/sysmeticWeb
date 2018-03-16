@@ -1,0 +1,125 @@
+<html>
+<head>
+<title></title>
+<style>table {border-callapse:collapse;} td {border:1px solid black;}</style>
+</head>
+<body>
+<table>
+<thead>
+<tr>
+<th>일자</th>
+<th>입출금</th>
+<th>일손익</th>
+<th>KP Ratio</th>
+<th>SM Score</th>
+<th>기준가</th>
+<th>거래일수</th>
+<th>잔고</th>
+<th>원금</th>
+<th>당일원금출금액</th>
+<th>누적입출금</th>
+<th>입금</th>
+<th>누적입금</th>
+<th>출금</th>
+<th>누적출금</th>
+<th>실현손익</th>
+<th>누적실현손익</th>
+<th>일손익(%)</th>
+<th>일손일률(LN%)</th>
+<th>최대일이익</th>
+<th>최대일이익(%)</th>
+<th>최대일손일</th>
+<th>최대일손실(%)</th>
+<th>총이익</th>
+<th>이익일수</th>
+<th>평균이익</th>
+<th>총손실</th>
+<th>손실일수</th>
+<th>평균손실</th>
+<th>누적손익</th>
+<th>누적손익(실현손익제외)</th>
+<th>누적손익(%)</th>
+<th>누적손익률(LN%)</th>
+<th>최대누적손익</th>
+<th>최대누적손익(%)</th>
+<th>평균손익</th>
+<th>평균손익(%)</th>
+<th>Peak</th>
+<th>Peak(%)</th>
+<th>Peak(LN%)</th>
+<th>고점후 경과일</th>
+<th>현재자본인하금액</th>
+<th>현재자본인하(%)</th>
+<th>현재자본인하(LN%)</th>
+<th>최대자본인하금액</th>
+<th>최대자본인하금액(%)</th>
+<th>승률</th>
+<th>Profit Factor</th>
+<th>ROA</th>
+<th>평균손익비</th>
+<th>변동계수</th>
+<th>Sharp Ratio</th>
+
+</tr>
+</thead>
+<tbody>
+    <? foreach ($daily_values as $v) { ?>
+    <tr>
+        <td><?=$v['basedate']?></td>
+        <td><?=$v['flow']?></td>
+        <td><?=$v['daily_pl']?></td>
+        <td><?=$v['kp_ratio']?></td>
+        <td><?=$v['sm_score']?></td>
+        <td><?=$v['sm_index']?></td>
+        <td><?=$v['trade_days']?></td>
+        <td><?=$v['balance']?></td>
+        <td><?=$v['principal']?></td>
+        <td><?=$v['withdraw_principal']?></td>
+        <td><?=$v['acc_flow']?></td>
+        <td><?=$v['inflow']?></td>
+        <td><?=$v['acc_inflow']?></td>
+        <td><?=$v['outflow']?></td>
+        <td><?=$v['acc_outflow']?></td>
+        <td><?=$v['realized_pl']?></td>
+        <td><?=$v['acc_realized_pl']?></td>
+        <td><?=$v['daily_pl_rate']?></td>
+        <td><?=$v['daily_pl_ln_rate']?></td>
+        <td><?=$v['max_daily_profit']?></td>
+        <td><?=$v['max_daily_profit_rate']?></td>
+        <td><?=$v['max_daily_loss']?></td>
+        <td><?=$v['max_daily_loss_rate']?></td>
+        <td><?=$v['total_profit']?></td>
+        <td><?=$v['profit_days']?></td>
+        <td><?=$v['avg_profit']?></td>
+        <td><?=$v['total_loss']?></td>
+        <td><?=$v['loss_days']?></td>
+        <td><?=$v['avg_loss']?></td>
+        <td><?=$v['acc_pl']?></td>
+        <td><?=$v['acc_pl_without_realized']?></td>
+        <td><?=$v['acc_pl_rate']?></td>
+        <td><?=$v['acc_pl_ln_rate']?></td>
+        <td><?=$v['max_acc_pl']?></td>
+        <td><?=$v['max_acc_pl_rate']?></td>
+        <td><?=$v['avg_pl']?></td>
+        <td><?=$v['avg_pl_rate']?></td>
+        <td><?=$v['peak']?></td>
+        <td><?=$v['peak_rate']?></td>
+        <td><?=$v['peak_ln_rate']?></td>
+        <td><?=$v['after_peak_days']?></td>
+        <td><?=$v['dd']?></td>
+        <td><?=$v['dd_rate']?></td>
+        <td><?=$v['dd_ln_rate']?></td>
+        <td><?=$v['mdd']?></td>
+        <td><?=$v['mdd_rate']?></td>
+        <td><?=$v['winning_rate']?></td>
+        <td><?=$v['profit_factor']?></td>
+        <td><?=$v['roa']?></td>
+        <td><?=$v['avg_pl_ratio']?></td>
+        <td><?=$v['variation_factor']?></td>
+        <td><?=$v['sharp_ratio']?></td>
+    </tr>
+    <? } ?>
+</tbody>
+</table>
+</body>
+</html>

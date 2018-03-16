@@ -1,0 +1,504 @@
+
+Warning: session_start(): open(/var/lib/php/session/sess_jhh2fofuqtjuql9vvda7apmva0, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-07-10 09:59:28] Start Weekly Favor St Mailing ======================== 
+
+[2017-07-10 09:59:34] Complete Weekly Favor St Mailing ( 160    /    6 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_jhh2fofuqtjuql9vvda7apmva0, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_5dvutbqdkt75jscabfc9adhrf7, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-07-17 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-07-17 06:01:06] Complete Weekly Favor St Mailing ( 160    /    5 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_5dvutbqdkt75jscabfc9adhrf7, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_0107e3b3n3b34tm2jns4g6u8c0, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-07-24 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-07-24 06:01:07] Complete Weekly Favor St Mailing ( 160    /    6 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_0107e3b3n3b34tm2jns4g6u8c0, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_uq1unqnjjogi6sgvgkl5mhqmd0, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-07-31 06:01:02] Start Weekly Favor St Mailing ======================== 
+
+[2017-07-31 06:01:07] Complete Weekly Favor St Mailing ( 158    /    5 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_uq1unqnjjogi6sgvgkl5mhqmd0, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_e76ol7ik2hmui6f1lfnpuer6c5, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-08-07 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-08-07 06:01:07] Complete Weekly Favor St Mailing ( 159    /    6 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_e76ol7ik2hmui6f1lfnpuer6c5, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_nrjfjg9ve3837h1b6f809239u7, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-08-14 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-08-14 06:01:06] Complete Weekly Favor St Mailing ( 159    /    5 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_nrjfjg9ve3837h1b6f809239u7, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_h2cpdegnqe3hp0uukas8m7cum0, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-08-21 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-08-21 06:01:07] Complete Weekly Favor St Mailing ( 159    /    6 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_h2cpdegnqe3hp0uukas8m7cum0, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_2458rl6nk0ho3r6pp964raqm47, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-08-28 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-08-28 06:01:07] Complete Weekly Favor St Mailing ( 158    /    6 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_2458rl6nk0ho3r6pp964raqm47, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_nq4p8bdro8b1prtiasvoel7qk6, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-09-04 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-09-04 06:01:07] Complete Weekly Favor St Mailing ( 158    /    6 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_nq4p8bdro8b1prtiasvoel7qk6, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_6ni5qh1pgo3v1dgnp805qh20c1, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-09-11 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-09-11 06:01:07] Complete Weekly Favor St Mailing ( 159    /    6 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_6ni5qh1pgo3v1dgnp805qh20c1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_r3i8ska3gcb4shel4huqlc2jp5, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-09-18 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-09-18 06:01:07] Complete Weekly Favor St Mailing ( 159    /    6 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_r3i8ska3gcb4shel4huqlc2jp5, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_717tlblqqneh9th258oc3kcfn6, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-09-25 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-09-25 06:01:06] Complete Weekly Favor St Mailing ( 159    /    5 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_717tlblqqneh9th258oc3kcfn6, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_j2rng4pdldlbrn96m75akmga67, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-10-02 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-10-02 06:01:07] Complete Weekly Favor St Mailing ( 159    /    6 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_j2rng4pdldlbrn96m75akmga67, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_5ifekf5c7h8r9948iicj4flfi3, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-10-09 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-10-09 06:01:07] Complete Weekly Favor St Mailing ( 159    /    6 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_5ifekf5c7h8r9948iicj4flfi3, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_69t6vnr9h6rs5nleo9vhd32at1, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-10-16 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-10-16 06:01:07] Complete Weekly Favor St Mailing ( 159    /    6 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_69t6vnr9h6rs5nleo9vhd32at1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_s3l2edimi92c73hj46r6sek3u5, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-10-23 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-10-23 06:09:27] Complete Weekly Favor St Mailing ( 159    /    506 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_s3l2edimi92c73hj46r6sek3u5, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_llhsgi6ir0057fe5rgfht1ipc1, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-10-30 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-10-30 06:09:16] Complete Weekly Favor St Mailing ( 160    /    495 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_llhsgi6ir0057fe5rgfht1ipc1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_c2ljrrqbpljsiag21i5mu0cgi2, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-11-06 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-11-06 06:09:21] Complete Weekly Favor St Mailing ( 159    /    500 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_c2ljrrqbpljsiag21i5mu0cgi2, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_j0p5rti534b78pe47652pgo0o5, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-11-13 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-11-13 06:08:56] Complete Weekly Favor St Mailing ( 160    /    475 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_j0p5rti534b78pe47652pgo0o5, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_beu91lcg7g8n07na52p119k1q5, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-11-20 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-11-20 06:09:24] Complete Weekly Favor St Mailing ( 160    /    503 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_beu91lcg7g8n07na52p119k1q5, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_60g7648co7rj341c7bekf7rch6, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-11-27 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-11-27 06:08:09] Complete Weekly Favor St Mailing ( 147    /    428 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_60g7648co7rj341c7bekf7rch6, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_phagdf8rqhaifa6mq4c8q9so42, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-12-04 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-12-04 06:08:52] Complete Weekly Favor St Mailing ( 148    /    471 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_phagdf8rqhaifa6mq4c8q9so42, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_t3sjbp7072236ban9kpiobogd6, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-12-11 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-12-11 06:08:27] Complete Weekly Favor St Mailing ( 149    /    446 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_t3sjbp7072236ban9kpiobogd6, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_h8u20sp3edb7t39nqe143np5o3, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-12-18 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-12-18 06:08:34] Complete Weekly Favor St Mailing ( 149    /    453 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_h8u20sp3edb7t39nqe143np5o3, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_457408d7k9c38gc6j0bl7iqe12, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2017-12-25 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2017-12-25 06:08:43] Complete Weekly Favor St Mailing ( 149    /    462 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_457408d7k9c38gc6j0bl7iqe12, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_fo32uq76lm00ie7pdoa1rb2e73, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2018-01-01 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2018-01-01 06:08:01] Complete Weekly Favor St Mailing ( 137    /    420 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_fo32uq76lm00ie7pdoa1rb2e73, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_jq388g4k0rich47d39hukgrnd7, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2018-01-08 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2018-01-08 06:08:31] Complete Weekly Favor St Mailing ( 145    /    450 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_jq388g4k0rich47d39hukgrnd7, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_5lq0k7m0kvvq0hp9pg430qvn57, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2018-01-15 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2018-01-15 06:08:19] Complete Weekly Favor St Mailing ( 146    /    438 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_5lq0k7m0kvvq0hp9pg430qvn57, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_s2ba2p7ancdf6u6t044213dlo6, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2018-01-22 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2018-01-22 06:08:41] Complete Weekly Favor St Mailing ( 146    /    460 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_s2ba2p7ancdf6u6t044213dlo6, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_5gb9p2nbu5gdkcskgi2krjmdv4, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2018-01-29 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2018-01-29 06:08:21] Complete Weekly Favor St Mailing ( 146    /    440 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_5gb9p2nbu5gdkcskgi2krjmdv4, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_h3v09conjfqvb9u6eof4867hd4, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2018-02-05 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2018-02-05 06:08:17] Complete Weekly Favor St Mailing ( 138    /    436 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_h3v09conjfqvb9u6eof4867hd4, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_3lmf59j6qk6ac7o1lhnkqi9737, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2018-02-12 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2018-02-12 06:07:33] Complete Weekly Favor St Mailing ( 137    /    392 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_3lmf59j6qk6ac7o1lhnkqi9737, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_4sl65e3d9riiqvtslu58iqpdn1, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2018-02-19 06:01:02] Start Weekly Favor St Mailing ======================== 
+
+[2018-02-19 06:07:56] Complete Weekly Favor St Mailing ( 137    /    414 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_4sl65e3d9riiqvtslu58iqpdn1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_jfofka312hqr3f3j9o193k6m35, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2018-02-26 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2018-02-26 06:07:49] Complete Weekly Favor St Mailing ( 137    /    408 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_jfofka312hqr3f3j9o193k6m35, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_e7bafjn9mhe6b360aoveeav343, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2018-03-05 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2018-03-05 06:07:55] Complete Weekly Favor St Mailing ( 137    /    414 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_e7bafjn9mhe6b360aoveeav343, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0
+
+Warning: session_start(): open(/var/lib/php/session/sess_hba4spnj00hqp4fqd5j0tfi1j1, O_RDWR) failed: Permission denied (13) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cookie - headers already sent by (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+
+Warning: session_start(): Cannot send session cache limiter - headers already sent (output started at /home/sysmetic/www/bootstrap.php:26) in /home/sysmetic/www/bootstrap.php on line 26
+<xmp>
+[2018-03-12 06:01:01] Start Weekly Favor St Mailing ======================== 
+
+[2018-03-12 06:07:57] Complete Weekly Favor St Mailing ( 138    /    416 sec ) ======================== 
+
+Warning: Unknown: open(/var/lib/php/session/sess_hba4spnj00hqp4fqd5j0tfi1j1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+
+Warning: Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/var/lib/php/session) in Unknown on line 0

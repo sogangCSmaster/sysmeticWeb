@@ -1,0 +1,607 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta property="og:type" content='website' />
+	<meta property="og:title" content="SYSMETIC">
+	<meta property='og:site_name' content='SYSMETIC' />
+	<meta property="og:title" content='SYSMETIC' />
+	<meta property="og:description" content='SYSMETIC' />
+	<title>My page | SYSMETIC</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/sub.css">
+	<link rel="stylesheet" href="../css/jquery_ui.css">
+	<link rel="stylesheet" href="../css/owl.carousel.css">
+	<script src="../js/jquery-1.10.1.min.js"></script>
+	<script src="../js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="../js/html5shiv.js"></script>
+	<script src="../js/owl.carousel.js"></script>
+	<script src="../js/common.js"></script>
+</head>
+<body>
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header">
+			<div class="area">
+				<h1 class="header_logo"><a href="javascript:;"><img src="../images/common/img_header_logo.png" alt="SYSMETIC" /></a></h1>
+				<div class="cont_box">
+					<!-- 로그인 전 -->
+					<div class="member before_login">
+						<div class="links">
+							<a href="javascript:;">로그인</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">회원가입</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">이용안내</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">고객센터</a>
+						</div>
+						<a href="javascript:;" class="btn_bigdata">주식 빅데이터</a>
+					</div>
+					<!-- //로그인 전 -->
+					<!-- 로그인 후 
+					<div class="member after_login">
+						<div class="links">
+							<a href="javascript:;"><img src="../images/common/ico_header_coffee.png" alt="" /> My Lounge</a>
+							<a href="javascript:;">PB 게시판</a>
+							<a href="javascript:;">마이페이지</a>
+							<a href="javascript:;">로그아웃</a>
+						</div>
+						<a href="javascript:;" class="btn_bigdata">주식 빅데이터</a>
+					</div>
+					<!-- //로그인 후 -->
+					<!-- gnb -->
+					<nav class="gnb">
+						<ul>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb01_off.png" alt="투자하기" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0101.png" alt="상품랭킹" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0102.png" alt="PB/트레이더" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0103.png" alt="상품검색" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0104.png" alt="포트폴리오" /></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb02_off.png" alt="투자받기" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0201.png" alt="상품등록" /></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb03_on.png" alt="Lounge" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0301.png" alt="My Lounge" /></a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<!-- //gnb -->
+				</div>
+			</div>
+		</header>
+		<!-- header -->
+		<!-- container -->
+		<div class="container">
+			<section class="area mypage">	
+				<div class="cont_a">
+					<div class="head">
+						<div class="photo">
+							<img src="../images/img_pb_face_sample.jpg" alt="" />
+						</div>
+						<div class="info_nav">
+							<div class="info_box">
+								<div class="info">
+									<strong class="name">유시진</strong>
+									<dl>
+										<dt>가입일 : </dt>
+										<dd> 2016년12월14일</dd>
+										<dt class="type">회원타입 : </dt>
+										<dd> PB회원</dd>
+									</dl>
+								</div>
+								<div class="btns">
+									<a href="javascript:;" class="btn modify">개인정보수정</a>
+									<a href="javascript:;" class="btn member_leave">회원탈퇴하기</a>
+								</div>
+							</div> 
+							<nav class="menu">
+								<ul>
+									<li class="menu01">
+										<a href="javascript:;">
+											구독
+											<img src="../images/sub/img_lounge_nav_arrow.png" alt="" class="arrow" />
+										</a>
+									</li>
+									<li class="menu02">
+										<a href="javascript:;">
+											나의 관심상품
+											<img src="../images/sub/img_lounge_nav_arrow.png" alt="" class="arrow" />
+										</a>
+									</li>
+									<li class="menu03 curr">
+										<a href="javascript:;">
+											나의 상품
+											<img src="../images/sub/img_lounge_nav_arrow.png" alt="" class="arrow" />
+										</a>
+									</li>
+									<li class="menu04">
+										<a href="javascript:;">
+											나의 포트폴리오
+											<img src="../images/sub/img_lounge_nav_arrow.png" alt="" class="arrow" />
+										</a>
+									</li>
+									<li class="menu05">
+										<a href="javascript:;">
+											나의 상담
+											<img src="../images/sub/img_lounge_nav_arrow.png" alt="" class="arrow" />
+										</a>
+									</li>
+									<li class="menu06">
+										<a href="javascript:;">
+											나의 문의
+											<img src="../images/sub/img_lounge_nav_arrow.png" alt="" class="arrow" />
+										</a>
+									</li>
+									<li class="menu07">
+										<a href="javascript:;">
+											나의 투자
+											<img src="../images/sub/img_lounge_nav_arrow.png" alt="" class="arrow" />
+										</a>
+									</li>
+									<li class="menu08">
+										<a href="javascript:;">
+											고객센터 상담내역
+											<img src="../images/sub/img_lounge_nav_arrow.png" alt="" class="arrow" />
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="content my_products">
+						<div class="pd_regist type04">
+							<div class="info">
+								<strong class="name">필생 V1</strong>
+								<div class="regist_date">
+									<dl>
+										<dt>등록 : </dt>
+										<dd>2016.04.21 20:41:28</dd>
+									</dl>
+									<dl class="bottom">
+										<dt>최종 업데이트 : </dt>
+										<dd>2016.04.25 17:59:45</dd>
+									</dl>
+								</div>
+							</div>
+							<div class="stat_set">
+								<strong class="title">상태 설정 :</strong>
+								<span class="txt">공개여부</span>
+								<div class="custom_selectbox" style="width:150px;">
+									<label for="select01">공개</label>
+									<select id="select01" name="select01">
+										<option value="" selected="selected">공개</option>
+										<option value="">비공개</option>
+									</select>
+								</div>
+								<span class="txt">펀딩여부</span>
+								<div class="custom_selectbox" style="width:150px;">
+									<label for="select02">펀딩가능</label>
+									<select id="select02" name="select02">
+										<option value="" selected="selected">펀딩가능</option>
+										<option value="">-</option>
+									</select>
+								</div>
+								<a href="javascript:;" class="btn_set">변경</a>
+							</div>
+							<div class="category">
+								<ul>
+									<li><a href="javascript:;">기본정보</a></li>
+									<li><a href="javascript:;">일간분석</a></li>
+									<li><a href="javascript:;">펀딩금액/투자자수</a></li>
+									<li class="curr"><a href="javascript:;">실계좌 정보</a></li>
+								</ul>
+								<a href="javascript:;" class="btn_upload_guide"><img src="../images/sub/ico_qm.gif" alt="?" /> 업로드 가이드</a>
+							</div>
+							<div class="list_head">
+								<div class="delete_a">
+									<p class="txt">선택한 이미지를</p>
+									<a href="javascript:;" class="btn_delete">삭제</a>
+								</div>
+								<a href="javascript:;" class="btn" onclick="commonLayerOpen('acc_no_certification')">실계좌 인증등록</a>
+							</div>
+							
+							<div class="list">
+								<ul class="acc_no_list">
+									<li class="left">
+										<div class="picture" onclick="commonLayerOpen('img_detail_view')">
+											<img src="../images/img_real_info_sample01.gif" alt="" />
+										</div>
+										<p class="txt">
+											<strong>생플이미지</strong>
+										</p>
+									</li>
+									<li>
+										<div class="picture" onclick="commonLayerOpen('img_detail_view')">
+											<img src="../images/img_real_info_sample02.gif" alt="" />
+										</div>
+										<p class="txt">
+											2015년12월부터<br />
+											2016년6월까지 월별..
+										</p>
+										<input type="checkbox" id="list_check02" name="list_check" />
+										<label for="list_check02" title="선택"></label>
+									</li>
+									<li>
+										<div class="picture" onclick="commonLayerOpen('img_detail_view')">
+											<img src="../images/img_real_info_sample01.gif" alt="" />
+										</div>
+										<p class="txt">
+											2012.10.21
+										</p>
+										<input type="checkbox" id="list_check03" name="list_check" />
+										<label for="list_check03" title="선택"></label>
+									</li>
+									<li>
+										<div class="picture" onclick="commonLayerOpen('img_detail_view')">
+											<img src="../images/img_real_info_sample02.gif" alt="" />
+										</div>
+										<p class="txt">
+											2015년12월부터<br />
+											2016년6월까지 월별..
+										</p>
+										<input type="checkbox" id="list_check04" name="list_check" />
+										<label for="list_check04" title="선택"></label>
+									</li>
+									<li>
+										<div class="picture" onclick="commonLayerOpen('img_detail_view')">
+											<img src="../images/img_real_info_sample01.gif" alt="" />
+										</div>
+										<p class="txt">
+											2015년12월부터<br />
+											2016년6월까지 월별..
+										</p>
+										<input type="checkbox" id="list_check05" name="list_check" />
+										<label for="list_check05" title="선택"></label>
+									</li>
+
+									<li class="left">
+										<div class="picture" onclick="commonLayerOpen('img_detail_view')">
+											<img src="../images/img_real_info_sample01.gif" alt="" />
+										</div>
+										<p class="txt">
+											<strong>생플이미지</strong>
+										</p>
+										<input type="checkbox" id="list_check06" name="list_check" />
+										<label for="list_check06" title="선택"></label>
+									</li>
+									<li>
+										<div class="picture" onclick="commonLayerOpen('img_detail_view')">
+											<img src="../images/img_real_info_sample02.gif" alt="" />
+										</div>
+										<p class="txt">
+											2015년12월부터<br />
+											2016년6월까지 월별..
+										</p>
+										<input type="checkbox" id="list_check07" name="list_check" />
+										<label for="list_check07" title="선택"></label>
+									</li>
+									<li>
+										<div class="picture" onclick="commonLayerOpen('img_detail_view')">
+											<img src="../images/img_real_info_sample01.gif" alt="" />
+										</div>
+										<p class="txt">
+											2012.10.21
+										</p>
+										<input type="checkbox" id="list_check08" name="list_check" />
+										<label for="list_check08" title="선택"></label>
+									</li>
+									<li>
+										<div class="picture" onclick="commonLayerOpen('img_detail_view')">
+											<img src="../images/img_real_info_sample02.gif" alt="" />
+										</div>
+										<p class="txt">
+											2015년12월부터<br />
+											2016년6월까지 월별..
+										</p>
+										<input type="checkbox" id="list_check09" name="list_check" />
+										<label for="list_check09" title="선택"></label>
+									</li>
+									<li>
+										<div class="picture" onclick="commonLayerOpen('img_detail_view')">
+											<img src="../images/img_real_info_sample01.gif" alt="" />
+										</div>
+										<p class="txt">
+											2015년12월부터<br />
+											2016년6월까지 월별..
+										</p>
+										<input type="checkbox" id="list_check10" name="list_check" />
+										<label for="list_check10" title="선택"></label>
+									</li>
+
+									<li class="left">
+										<div class="picture" onclick="commonLayerOpen('img_detail_view')">
+											<img src="../images/img_real_info_sample01.gif" alt="" />
+										</div>
+										<p class="txt">
+											<strong>생플이미지</strong>
+										</p>
+										<input type="checkbox" id="list_check11" name="list_check" />
+										<label for="list_check11" title="선택"></label>
+									</li>
+									<li>
+										<div class="picture" onclick="commonLayerOpen('img_detail_view')">
+											<img src="../images/img_real_info_sample02.gif" alt="" />
+										</div>
+										<p class="txt">
+											2015년12월부터<br />
+											2016년6월까지 월별..
+										</p>
+										<input type="checkbox" id="list_check12" name="list_check" />
+										<label for="list_check12" title="선택"></label>
+									</li>
+									<li>
+										<div class="picture" onclick="commonLayerOpen('img_detail_view')">
+											<img src="../images/img_real_info_sample01.gif" alt="" />
+										</div>
+										<p class="txt">
+											2012.10.21
+										</p>
+										<input type="checkbox" id="list_check13" name="list_check" />
+										<label for="list_check13" title="선택"></label>
+									</li>
+									<li>
+										<div class="picture" onclick="commonLayerOpen('img_detail_view')">
+											<img src="../images/img_real_info_sample02.gif" alt="" />
+										</div>
+										<p class="txt">
+											2015년12월부터<br />
+											2016년6월까지 월별..
+										</p>
+										<input type="checkbox" id="list_check14" name="list_check" />
+										<label for="list_check14" title="선택"></label>
+									</li>
+									<li>
+										<div class="picture"></div>
+										<p class="txt">
+											2015년12월부터<br />
+											2016년6월까지 월별..
+										</p>
+									</li>
+								</ul>
+							</div>
+
+							<a href="javascript:;" class="btn_full_gray">목록</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- //container -->
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="top_area">
+				<div class="area">
+					<div class="links">
+						<a href="javascript:;">이용약관</a>
+						<a href="javascript:;" class="privacy">개인정보 취급방침</a>
+						<a href="javascript:;">교육안내</a>
+						<a href="javascript:;">이용안내</a>
+						<a href="javascript:;">회사소개</a>
+						<a href="javascript:;">공지사항</a>
+						<a href="javascript:;">주식 빅데이터</a>
+						<a href="javascript:;">Media Room</a>
+						<a href="javascript:;">고객센터</a>					
+					</div>
+					<a href="#" class="btn_page_top"><img src="../images/common/btn_page_top.gif" alt="TOP" /></a>
+				</div>
+			</div>
+			<div class="bottom_area">
+				<div class="area">
+					<div class="footer_logo">
+						<img src="../images/common/img_footer_logo.png" alt="SYSMETIC" />
+					</div>
+					<div class="company_info">
+						<dl>
+							<dt>사업자 등록번호 : </dt>
+							<dd>711-86-00050</dd>
+						</dl>
+						<dl>
+							<dt>통신판매업신고 : </dt>
+							<dd>제2015-서울 영등포-1469호</dd>
+						</dl>
+						<dl>
+							<dt>특허출원번호 : </dt>
+							<dd>10-2016-00262203</dd>
+						</dl>
+						<dl>
+							<dt>주소지 : </dt>
+							<dd>서울시 영등포구 국제금융로2길 37, 2301호</dd>
+						</dl>
+						<p class="copyright"><img src="../images/common/txt_copyright.png" alt="COPYRIGHT ⓒ SYSMETIC ALL RIGHT RESERVED" /></p>
+					</div>
+					<div class="site_summary">
+						<p>
+							시스메틱의 모든 사이트의 내용은 정보를 제공하기 위함이며, 투자권유와 주식 및 파생상품<br />매매를 목적으로 하고 있지 않습니다. <br />
+							따라서 본 사이트의 수익률과 관련정보에 대해서는 (주)시스메틱은 어떠한 책임도 없습니다.<br />
+							또한 본 사이트를 통해 제공받게 되는 운용성과의 결과에 대해서도 (주)시스메틱은 <br />
+							어떠한 책임이 없으며 모든 책임과 활용되는 모든 정보는 투자자 본인의 책임입니다.
+						</p>
+					</div>
+				</div>				
+			</div>
+		</footer>
+		<!-- //footer -->
+	</div>
+	<!-- //wrapper -->
+
+<style>
+.layer_popup.img_detail_view .detail_pic {padding:10px 0; text-align:center;}
+.layer_popup.img_detail_view .detail_pic img {max-width:calc(100% - 2px); border:1px solid #bfbfbf;}
+
+</style>
+
+<!-- 레이어팝업 : 실계좌 인증 등록 입력 -->
+<article class="layer_popup img_detail_view">
+	<div class="dim" onclick="commonLayerClose('img_detail_view')"></div>
+	<div class="contents">
+		<div class="layer_header">
+			<h2>이미지 상세보기</h2>
+			<button type="button" title="레이어 팝업 닫기" class="btn_close_layer" onclick="commonLayerClose('img_detail_view')"></button>
+		</div>
+		<div class="cont">
+			<div class="detail_pic">
+				<img src="../images/img_detail_pic_sample.gif" alt="" />
+			</div>
+		</div>
+	</div>
+</article>
+<!-- //레이어팝업 : 실계좌 인증 등록 입력 -->
+
+<!-- 레이어팝업 : 실계좌 인증 등록 입력 -->
+<article class="layer_popup input_data acc_no_certification">
+	<div class="dim" onclick="commonLayerClose('acc_no_certification')"></div>
+	<div class="contents">
+		<div class="layer_header">
+			<h2>실계좌 인증 등록</h2>
+			<button type="button" title="레이어 팝업 닫기" class="btn_close_layer" onclick="commonLayerClose('acc_no_certification')"></button>
+		</div>
+		<div class="cont">
+			<div class="form_box">
+				<table class="form_tbl">
+					<colgroup>
+						<col style="width:50%;" />
+						<col style="width:50%;" />
+					</colgroup>
+					<thead>
+						<tr>
+							<th>제목</th>
+							<th>이미지</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<input type="text" id="" name="" placeholder="제목" style="width:182px;" />
+							</td>
+							<td>
+								<div class="file_upload">
+									<div class="input_box">
+										<input type="text" id="" name="" placeholder="파일을 첨부해주세요." />
+										<input type="file" id="file_upload01" name="file_upload01" />					
+									</div>
+									<label for="file_upload01" class="btn_upload">찾아보기</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="text" id="" name="" placeholder="제목" style="width:182px;" />
+							</td>
+							<td>
+								<div class="file_upload">
+									<div class="input_box">
+										<input type="text" id="" name="" placeholder="파일을 첨부해주세요." />
+										<input type="file" id="file_upload02" name="file_upload02" />					
+									</div>
+									<label for="file_upload02" class="btn_upload">찾아보기</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="text" id="" name="" placeholder="제목" style="width:182px;" />
+							</td>
+							<td>
+								<div class="file_upload">
+									<div class="input_box">
+										<input type="text" id="" name="" placeholder="파일을 첨부해주세요." />
+										<input type="file" id="file_upload03" name="file_upload03" />					
+									</div>
+									<label for="file_upload03" class="btn_upload">찾아보기</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="text" id="" name="" placeholder="제목" style="width:182px;" />
+							</td>
+							<td>
+								<div class="file_upload">
+									<div class="input_box">
+										<input type="text" id="" name="" placeholder="파일을 첨부해주세요." />
+										<input type="file" id="file_upload04" name="file_upload04" />					
+									</div>
+									<label for="file_upload04" class="btn_upload">찾아보기</label>
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<input type="text" id="" name="" placeholder="제목" style="width:182px;" />
+							</td>
+							<td>
+								<div class="file_upload">
+									<div class="input_box">
+										<input type="text" id="" name="" placeholder="파일을 첨부해주세요." />
+										<input type="file" id="file_upload05" name="file_upload05" />					
+									</div>
+									<label for="file_upload05" class="btn_upload">찾아보기</label>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="btn_area half">
+				<button type="button" class="btn_common_red">등록</button>
+				<a href="javascript:;" class="btn_common_gray" onclick="commonLayerClose('acc_no_certification')">취소</a>
+			</div>
+		</div>
+	</div>
+</article>
+<!-- //레이어팝업 : 실계좌 인증 등록 입력 -->
+
+<!-- 레이어팝업 : 안내 > 업로드 오류 commonLayerOpen('upload_error') -->
+<article class="layer_popup common_info upload_error">
+	<div class="dim" onclick="commonLayerClose('upload_error')"></div>
+	<div class="contents">
+		<div class="layer_header">
+			<h2>안내</h2>
+			<button type="button" title="레이어 팝업 닫기" class="btn_close_layer" onclick="commonLayerClose('upload_error')"></button>
+		</div>
+		<div class="cont">
+			<p class="txt_caution">첨부 가능한 파일이  아닙니다.<br />
+			jpg, gif, png 등의 이미지 파일을 올려주세요.</p> 
+			<div class="btn_area">
+				<a href="javascript:;" class="btn_common_gray" onclick="commonLayerClose('upload_error')">닫기</a>
+			</div>
+		</div>
+	</div>
+</article>
+<!-- //레이어팝업 : 안내 > 폴더명 중복 -->
+
+<script>
+	//file add
+	$('.acc_no_certification .file_upload input[type="file"]').change(function(){
+		var filePath = $(this).val();
+		$(this).siblings('input').val(filePath);
+	});
+
+	//custom selectbox
+    var select = $('select');
+    for(var i = 0; i < select.length; i++){
+        var idxData = select.eq(i).children('option:selected').text();
+        select.eq(i).siblings('label').text(idxData);
+    }
+    select.change(function(){
+        var select_name = $(this).children("option:selected").text();
+        $(this).siblings("label").text(select_name);
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+﻿@charset "utf-8";
+
+@font-face {
+    font-family:'NanumGothic';
+    src: url('../font/NanumGothic.eot');
+    src: url('../font/NanumGothic.eot?#iefix') format('embedded-opentype'),
+         url('../font/NanumGothic.woff') format('woff'),
+         url('../font/NanumGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+@font-face {
+    font-family:'NanumSquere';
+    src: url('../font/NanumSquareR.eot');
+    src: url('../font/NanumSquareR.eot?#iefix') format('embedded-opentype'),
+         url('../font/NanumSquareR.woff') format('woff'),
+         url('../font/NanumSquareR.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+html, body, div, span, applet, object, iframe,p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin:0;padding:0;border:0;vertical-align:baseline;}
+html, body, div, applet, object, iframe,p, blockquote, pre, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {font-size:12px; font-family:'돋움', 'dotum', 'Helvetica', 'sans-serif';; color:#333; letter-spacing:0px; -webkit-text-size-adjust:100%;} 
+h1, h2, h3, h4, h5, h6, label{margin:0; padding:0; border:0; vertical-align:baseline; font-size:12px; font-family:'돋움', 'dotum', 'Helvetica', 'sans-serif';; font-weight:bold; color:#333; letter-spacing:0px;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+caption {width:0; height:0; visibility:hidden; line-height:0; font-size:0; overflow:hidden;}
+a,a:visited,a:hover,a:active{text-decoration:none; color:#333; font-size:12px; border:none;}
+input, select, textarea, button {margin:0; padding:0; letter-spacing:-1px; font-family:'돋움', 'dotum', 'Helvetica', 'sans-serif';;}
+button {margin:0; padding:0; background:none; border:none; cursor:pointer;}
+.n_gothic {font-family:'NanumGothic', '돋움' !important;}
+.n_squere {font-family:'NanumSquere', '돋움' !important; font-weight:normal;}

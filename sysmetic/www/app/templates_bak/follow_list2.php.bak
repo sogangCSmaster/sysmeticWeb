@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />  
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <title>Sysmetic Traders - 관심전략</title>	
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico" />
+    <link  rel="stylesheet" type="text/css" href="/css/sysmetic.css" />	
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="/js/common.js"></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script>
+var isLoading = false;
+var hasMore = true;
+var start = <?php echo $start + $count ?>;
+var count = <?php echo $count ?>;
+
+$(function () {
+	$('div').each(function(){
+		if($(this).data('role') == 'strategy_graph' && !$(this).data('loaded')){
+			loadGraph($(this).attr('id'));
+		}
+	});
+
+	$(window).scroll(function(){
+		if(isLoading) return;
+		if(!hasMore) return;
+
+		if(($(document).height() - $(window).height() * 3) <= ($(window).height() + $(window).scrollTop())){
+			isLoading = true;
+			loadList();
+		}
+	});
+
+	$('body').on('click', 'button', function(){
+		if($(this).data('role') == 'follow'){
+			var btn_el = $(this);
+			$.get('/strategies/'+$(this).data('strategy-id')+'/follow', {type:'json'}, function(data){
+				if(data.result){
+					btn_el.attr('title', 'UnFollow').attr('class', 'unfollow').data('role', 'unfollow').html('<span class="ir">Unfollow</span>');
+					$('#follows_count'+btn_el.data('strategy-id')).text(parseInt($('#follows_count'+btn_el.data('strategy-id')).text()) + 1);
+				}else{
+				}
+			}, 'json');
+		}else if($(this).data('role') == 'unfollow'){
+			var btn_el = $(this);
+			$.get('/strategies/'+$(this).data('strategy-id')+'/unfollow', {type:'json'}, function(data){
+				if(data.result){
+					btn_el.attr('title', 'Follow').attr('class', 'follow').data('role', 'follow').html('<span class="ir">Follow</span>');
+					$('#follows_count'+btn_el.data('strategy-id')).text(parseInt($('#follows_count'+btn_el.data('strategy-id')).text()) - 1);
+				}else{
+				}
+			}, 'json');
+		}
+
+		return false;
+	});
+});
+	</script>
+</head>
+
+<body>
+    
+	<?php require_once('header.php') ?>
+
+    <!------ 본문 영역 ------->
+    <div id="wrap">
+        <div id="content">
+        	<?php if(count($strategies) == 0){ ?>
+            <div class="no_data">
+                <p>관심전략이 없습니다.</p><br />
+                전략을 Follow 하면 관심 전략에서 확인할 수 있습니다. 
+            </div>
+            <?php }else{ ?>            
+            
+            <!-- 데이터형 목록 -->
+            <div id="type_data" class="my_list" style="display:block;">  
+                <div class="select_area">
+                    <div class="select open" style="width:130px;">
+                        <div class="myValue"></div>
+                        <ul class="iList">
+                            <li><input name="view" id="view0" class="option" type="radio" value="목록형 보기"  onfocus="location.href='/followings/<?php echo date("Ymd")?>';" /><label for="view0">목록형 보기</label></li>
+                            <li><input name="view" id="view1" class="option" type="radio" value="데이터형 보기" checked="checked" /><label for="view1">데이터형 보기</label></li>
+                        </ul>
+                    </div>        
+                </div>
+
+
+                <div class="navi">
+                    <a href="/followings/<?php echo date("Ymd", strtotime($basedate . " - 7 day")) ?>"  class="prev on">◀</a>
+                    <b class="term">
+			<?php 	
+				$week = ceil((date("Ymd", strtotime($basedate))- date("Ym01", strtotime($basedate)))/7);
+				if($week == 0) $week = 1;
+				
+				$week_str = date("o년 n월 ", strtotime($basedate));
+				$week_str .= $week."주";
+				echo $week_str;
+ 			?>
+		    </b>
+		    <?php
+			if(date('Ymd') >= $basedate){
+				echo '<a href="/followings/'.date("Ymd", strtotime($basedate . " + 7 day")).'"  class="next on">▶</a>';
+			}
+			else {
+				echo '<a href="#" class="next off">▶</a>';
+			}
+		    ?>
+                </div>
+                
+                <table border="0" cellspacing="1" cellpadding="0">
+                <col width="90" /><col width="90" /><col width="90" /><col width="90" /><col width="90" /><col width="90" /><col width="90" />
+                <col width="100" /><col width="100" />
+                    <thead>
+                    <tr>
+                        <td colspan="7">일간손익</td>
+                        <td rowspan="2">주간손익</td>
+                        <td rowspan="2">누적손익</td>
+                    </tr>
+                    <tr class="date">
+                        <td><?php $d_6=date("n/j", strtotime($basedate . " - 5 day")); echo $d_6 ?></td>
+                        <td><?php $d_5=date("n/j", strtotime($basedate . " - 5 day")); echo $d_5 ?></td>
+                        <td><?php $d_4=date("n/j", strtotime($basedate . " - 4 day")); echo $d_4 ?></td>
+                        <td><?php $d_3=date("n/j", strtotime($basedate . " - 3 day")); echo $d_3 ?></td>
+                        <td><?php $d_2=date("n/j", strtotime($basedate . " - 2 day")); echo $d_2 ?></td>
+                        <td><?php $d_1=date("n/j", strtotime($basedate . " - 1 day")); echo $d_1 ?></td>
+                        <td><?php $d=date("n/j", strtotime($basedate)); echo $d ?></td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    
+			        <?php foreach($strategies as $strategy){ ?>
+                    <tr>
+                        <td colspan="9" class="name">
+                            <?php if($strategy['strategy_type'] == 'M'){ ?>
+                            <img src="/img/ico_menual.gif" />
+                            <?php }else if($strategy['strategy_type'] == 'S'){ ?>
+                            <img src="/img/ico_system.gif" />
+                            <?php } ?>
+
+                            <?php if($strategy['strategy_term'] == 'day'){ ?>
+                            <img src="/img/ico_day.gif" />
+                            <?php }else if($strategy['strategy_term'] == 'position'){ ?>
+                            <img src="../img/ico_position.gif" />
+                            <?php } ?>
+
+                            <?php foreach($strategy['items'] as $v){ ?>
+                            <img src="<?php echo $v['icon'] ?>" alt="<?php echo htmlspecialchars($v['name']) ?>" />
+                            <?php } ?>
+                            
+                            &nbsp; <a href="/strategies/<?php echo $strategy['strategy_id'] ?>"><?php echo htmlspecialchars($strategy['name']) ?></a>
+
+                            <button id="" type="" title="UnFollow" class="unfollow2"><span class="ir">Unfollow</span></button>
+
+                        
+                        </td>
+                    </tr>
+                    <?php } ?>
+                </table>
+            </div>
+            <!-- //데이터형 목록 -->
+
+	    </div>
+    </div>
+    <!------ //본문 영역 ------->
+
+	<?php require_once('footer.php') ?>
+
+</body>
+</html>

@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta property="og:type" content='website' />
+	<meta property="og:title" content="SYSMETIC">
+	<meta property='og:site_name' content='SYSMETIC' />
+	<meta property="og:title" content='SYSMETIC' />
+	<meta property="og:description" content='SYSMETIC' />
+	<title>상품등록 - PB | SYSMETIC</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/sub.css">
+	<link rel="stylesheet" href="../css/jquery_ui.css">
+	<link rel="stylesheet" href="../css/owl.carousel.css">
+	<script src="../js/jquery-1.10.1.min.js"></script>
+	<script src="../js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="../js/html5shiv.js"></script>
+	<script src="../js/owl.carousel.js"></script>
+	<script src="../js/common.js"></script>
+</head>
+<body>
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header">
+			<div class="area">
+				<h1 class="header_logo"><a href="javascript:;"><img src="../images/common/img_header_logo.png" alt="SYSMETIC" /></a></h1>
+				<div class="cont_box">
+					<!-- 로그인 전 -->
+					<div class="member before_login">
+						<div class="links">
+							<a href="javascript:;">로그인</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">회원가입</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">이용안내</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">고객센터</a>
+						</div>
+						<a href="javascript:;" class="btn_bigdata">주식 빅데이터</a>
+					</div>
+					<!-- //로그인 전 -->
+					<!-- 로그인 후 
+					<div class="member after_login">
+						<div class="links">
+							<a href="javascript:;"><img src="../images/common/ico_header_coffee.png" alt="" /> My Lounge</a>
+							<a href="javascript:;">PB 게시판</a>
+							<a href="javascript:;">마이페이지</a>
+							<a href="javascript:;">로그아웃</a>
+						</div>
+						<a href="javascript:;" class="btn_bigdata">주식 빅데이터</a>
+					</div>
+					<!-- //로그인 후 -->
+					<!-- gnb -->
+					<nav class="gnb">
+						<ul>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb01_off.png" alt="투자하기" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0101.png" alt="상품랭킹" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0102.png" alt="PB/트레이더" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0103.png" alt="상품검색" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0104.png" alt="포트폴리오" /></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb02_on.png" alt="투자받기" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0201.png" alt="상품등록" /></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb03_off.png" alt="Lounge" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0301.png" alt="My Lounge" /></a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<!-- //gnb -->
+				</div>
+			</div>
+		</header>
+		<!-- header -->
+		<!-- container -->
+		<div class="container">
+			<section class="area fund">	
+				<div class="page_title_area no_bg">
+					<p class="page_title n_squere">상품 등록 - PB</p>
+					<p class="page_summary">PB 회원 상품등록을 하실 수 있습니다.</p>
+				</div>
+				<div class="content_area regist">
+					<form action="">
+						<fieldset>
+							<legend class="screen_out">상품정보 입력</legend>
+							<table class="form_tbl">
+								<colgroup>
+									<col style="width:18%" />
+									<col style="width:32%" />
+									<col style="width:18%" />
+									<col style="width:32%" />
+								</colgroup>
+								<tbody>
+									<tr>
+										<th>상품명</th>
+										<td colspan="3">
+											<div class="input_box" style="width:795px;">
+												<input type="text" id="" name="" placeholder="상품명을 입력해주세요.">
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th>운용사</th>
+										<td>
+											<span class="txt">한화투자증권</span>
+										</td>
+										<th>매매툴</th>
+										<td>
+											<div class="custom_selectbox" style="width:298px;">
+												<label for="select02">매매툴을 선택해주세요.</label>
+												<select id="select02" name="select02">
+													<option value="" selected="selected">매매툴을 선택해주세요.</option>
+													<option value="">-</option>
+													<option value="">-</option>
+												</select>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th>트레이더</th>
+										<td colspan="3">
+											<div class="wrapping">
+												<!-- 선택된 트레이더 (검색 > 선택 후 노출)
+												<div class="choice_trader">
+													<img src="../images/img_face_sample.jpg" alt="" />
+													<strong class="name">유시진</strong>
+												</div>
+												-->
+												<div class="input_box in_btn" style="width:298px;">
+													<input type="text" id="" name="" placeholder="트레이더 검색" />
+													<button type="button" class="btn_search_trader" title="검색"></button>
+												</div>
+											</div>
+										</td>
+									</tr>
+									<!-- 트레이더 검색결과 : 아래 tr에 show클래스 삭제하면 화면에서 숨김 -->
+									<tr class="search_result show">
+										<th>검색결과</th>
+										<td colspan="3">
+											<ul class="trader_list">
+												<li>
+													<img src="../images/img_face_sample.jpg" alt="" />
+													<strong class="name">유시진</strong>
+													<button type="button" class="btn_choice">선택</button>
+												</li>
+												<li>
+													<img src="../images/img_face_sample2.jpg" alt="" />
+													<strong class="name">김관훈</strong>
+													<button type="button" class="btn_choice">선택</button>
+												</li>
+												<li>
+													<img src="../images/img_face_sample3.jpg" alt="" />
+													<strong class="name">이철수</strong>
+													<button type="button" class="btn_choice">선택</button>
+												</li>
+												<li>
+													<img src="../images/img_face_sample2.jpg" alt="" />
+													<strong class="name">김관훈</strong>
+													<button type="button" class="btn_choice">선택</button>
+												</li>
+												<li>
+													<img src="../images/img_face_sample3.jpg" alt="" />
+													<strong class="name">이철수</strong>
+													<button type="button" class="btn_choice">선택</button>
+												</li>
+											</ul>
+										</td>
+									</tr>
+									<tr>
+										<th>종류</th>
+										<td>
+											<div class="custom_selectbox" style="width:298px;">
+												<label for="select04">종류를 선택해주세요.</label>
+												<select id="select04" name="select04">
+													<option value="" selected="selected">종류를 선택해주세요.</option>
+													<option value="">-</option>
+													<option value="">-</option>
+												</select>
+											</div>
+										</td>
+										<th>주기</th>
+										<td>
+											<div class="custom_selectbox" style="width:298px;">
+												<label for="select05">주기를 선택해주세요.</label>
+												<select id="select05" name="select05">
+													<option value="" selected="selected">주기를 선택해주세요.</option>
+													<option value="">-</option>
+													<option value="">-</option>
+												</select>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th>종목</th>
+										<td colspan="3">
+											<div class="check_category">
+												<input type="checkbox" id="category01" name="category" />
+												<label for="category01">해외주식</label>
+												<input type="checkbox" id="category02" name="category" />
+												<label for="category02">주식선물</label>
+												<input type="checkbox" id="category03" name="category" />
+												<label for="category03">해외옵션</label>
+												<input type="checkbox" id="category04" name="category" />
+												<label for="category04">해외선물</label>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th>상품종류</th>
+										<td colspan="3">
+											<div class="custom_selectbox" style="width:298px;">
+												<label for="select06">종류를 선택해주세요.</label>
+												<select id="select06" name="select06">
+													<option value="" selected="selected">종류를 선택해주세요.</option>
+													<option value="">-</option>
+													<option value="">-</option>
+												</select>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th class="multi_line">최소위탁<br />가능금액</th>
+										<td colspan="3">
+											<div class="custom_selectbox" style="width:298px;">
+												<label for="select07">위탁금액 범위선택</label>
+												<select id="select07" name="select07">
+													<option value="" selected="selected">위탁금액 범위선택</option>
+													<option value="">-</option>
+													<option value="">-</option>
+												</select>
+											</div>
+										</td>
+									</tr>
+									<tr class="high">
+										<th>상품소개</th>
+										<td colspan="3">
+											<div class="textarea_box">
+												<textarea id="" name="" placeholder="상품소개 내용을 입력해주세요."></textarea>
+											</div>
+										</td>
+									</tr>
+									<tr>
+										<th>제안서</th>
+										<td colspan="3">
+											<div class="file_add">
+												<div class="input_box" style="width:298px;">
+													<input type="text" id="" name="" placeholder="파일을 첨부해주세요.">
+												</div>
+												<input type="file" id="file01" name="file01" />
+												<label for="file01" class="btn_add_file">찾아보기</label>
+											</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<div class="btn_area">
+								<a href="javascript:;" class="btn_common_gray btn_cancel">취소</a>
+								<button type="button" class="btn_common_red btn_regist">등록</button>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</section>
+		</div>
+		<!-- //container -->
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="top_area">
+				<div class="area">
+					<div class="links">
+						<a href="javascript:;">이용약관</a>
+						<a href="javascript:;" class="privacy">개인정보 취급방침</a>
+						<a href="javascript:;">교육안내</a>
+						<a href="javascript:;">이용안내</a>
+						<a href="javascript:;">회사소개</a>
+						<a href="javascript:;">공지사항</a>
+						<a href="javascript:;">주식 빅데이터</a>
+						<a href="javascript:;">Media Room</a>
+						<a href="javascript:;">고객센터</a>					</div>
+					<a href="#" class="btn_page_top"><img src="../images/common/btn_page_top.gif" alt="TOP" /></a>
+				</div>
+			</div>
+			<div class="bottom_area">
+				<div class="area">
+					<div class="footer_logo">
+						<img src="../images/common/img_footer_logo.png" alt="SYSMETIC" />
+					</div>
+					<div class="company_info">
+						<dl>
+							<dt>사업자 등록번호 : </dt>
+							<dd>711-86-00050</dd>
+						</dl>
+						<dl>
+							<dt>통신판매업신고 : </dt>
+							<dd>제2015-서울 영등포-1469호</dd>
+						</dl>
+						<dl>
+							<dt>특허출원번호 : </dt>
+							<dd>10-2016-00262203</dd>
+						</dl>
+						<dl>
+							<dt>주소지 : </dt>
+							<dd>서울시 영등포구 국제금융로2길 37, 2301호</dd>
+						</dl>
+						<p class="copyright"><img src="../images/common/txt_copyright.png" alt="COPYRIGHT ⓒ SYSMETIC ALL RIGHT RESERVED" /></p>
+					</div>
+					<div class="site_summary">
+						<p>
+							시스메틱의 모든 사이트의 내용은 정보를 제공하기 위함이며, 투자권유와 주식 및 파생상품<br />매매를 목적으로 하고 있지 않습니다. <br />
+							따라서 본 사이트의 수익률과 관련정보에 대해서는 (주)시스메틱은 어떠한 책임도 없습니다.<br />
+							또한 본 사이트를 통해 제공받게 되는 운용성과의 결과에 대해서도 (주)시스메틱은 <br />
+							어떠한 책임이 없으며 모든 책임과 활용되는 모든 정보는 투자자 본인의 책임입니다.
+						</p>
+					</div>
+				</div>				
+			</div>
+		</footer>
+		<!-- //footer -->
+	</div>
+	<!-- //wrapper -->
+
+
+<script>
+	//file add
+	$('.regist input[type="file"]').change(function(){
+		var filePath = $(this).val();
+		$(this).siblings('.input_box').children('input').val(filePath);
+	});
+
+	//custom selectbox
+    var select = $('select');
+    for(var i = 0; i < select.length; i++){
+        var idxData = select.eq(i).children('option:selected').text();
+        select.eq(i).siblings('label').text(idxData);
+    }
+    select.change(function(){
+        var select_name = $(this).children("option:selected").text();
+        $(this).siblings("label").text(select_name);
+    });
+</script>
+</body>
+</html>

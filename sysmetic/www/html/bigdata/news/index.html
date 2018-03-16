@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AI 뉴스 요약</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css'/>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='./style.css?hash=zxciajodoahhwd'>
+<meta name='keywords' content='AI 뉴스 요약'>
+<meta name='description' content='AI가 뉴스를 요약해 줍니다.'>
+<meta name='Author' content='코마일&시스메틱'>
+<meta name='subject' content='AI 뉴스 요약'>
+<meta name='url' content='http://sysmetic.co.kr/bigdata/news'>
+<meta property='og:title' content='AI 뉴스 요약'>
+<meta property='og:url' content='http://sysmetic.co.kr/bigdata/news' rel='canonical'>
+<meta property='og:type' content='website'>
+<meta property='og:site_name' content='AI 뉴스 요약'>
+<meta property='og:description' content='AI가 뉴스를 요약해 줍니다.'>
+<meta property='og:image' content='http://sysmetic.co.kr/bigdata/news/ai.png'>
+<meta name='viewport' content='width=device-width, user-scalable=no'>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65985931-3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-65985931-3');
+</script>
+
+  </head>
+  <body>
+    <div class='ui container'>
+      <div class='text-center'>
+        <a href='/bigdata' target='_blank'>
+	  <img src='/images/main/img_section07_banner.jpg' style='max-width: 100%;'>
+        </a>
+      </div>
+      <form action='/textsum/1' method='GET' class='ui form' onsubmit='return false;'>
+        <div class='field'>
+          <label> 카테고리 </label>
+          <select class='ui dropdown' name='category'>
+            <option value='news'>뉴스</option>
+            <option value='research'>증권사 보고서</option>
+            <option value='company'>공시,IR</option>
+            
+          </select>
+          <div class='field'>
+            <label>검색어</label>
+            <input type='text' name='query'>
+          </div>
+          <div class='field'>
+            <button type='submit' class='ui button'>
+              Search
+            </button>
+            <button type='button' class='ui button' id='one-grid'>
+              <i class='fa fa-square'></i>
+            </button>
+            <button type='button' class='ui button' id='three-grid'>
+              <i class='fa fa-th'></i>
+            </button>
+          </div>
+        </div>
+      </form>
+      <div class='ui grid'>
+        <div class='row'>
+          <div class='column'>
+            <div class='ui three stackable cards' id='card-content'>
+              <div></div> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='text-center'>
+  <div class="lds-css ng-scope">
+    <div style="width:100%;height:100%" class="lds-facebook">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js'></script>
+
+    <script src='./news_analysis.js?hash=19asda09u5j2uasd23'></script>
+  </body>
+</html>
+

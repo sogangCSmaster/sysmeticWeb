@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta property="og:type" content='website' />
+	<meta property="og:title" content="SYSMETIC">
+	<meta property='og:site_name' content='SYSMETIC' />
+	<meta property="og:title" content='SYSMETIC' />
+	<meta property="og:description" content='SYSMETIC' />
+	<title>회원가입 | SYSMETIC</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/sub.css">
+	<link rel="stylesheet" href="../css/jquery_ui.css">
+	<script src="../js/jquery-1.10.1.min.js"></script>
+	<script src="../js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="../js/html5shiv.js"></script>
+	<script src="../js/common.js"></script>
+</head>
+<body>
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header">
+			<div class="area">
+				<h1 class="header_logo"><a href="javascript:;"><img src="../images/common/img_header_logo.png" alt="SYSMETIC" /></a></h1>
+				<div class="cont_box">
+					<!-- 로그인 전
+					<div class="member before_login">
+						<div class="links">
+							<a href="javascript:;">로그인</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">회원가입</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">이용안내</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">고객센터</a>
+						</div>
+						<a href="javascript:;" class="btn_bigdata">주식 빅데이터</a>
+					</div>
+					<!-- //로그인 전 -->
+					<!-- 로그인 후 -->
+					<div class="member after_login">
+						<div class="links">
+							<a href="javascript:;"><img src="../images/common/ico_header_coffee.png" alt="" /> My Lounge</a>
+							<a href="javascript:;">PB 게시판</a>
+							<a href="javascript:;">마이페이지</a>
+							<a href="javascript:;">로그아웃</a>
+						</div>
+						<a href="javascript:;" class="btn_bigdata">주식 빅데이터</a>
+					</div>
+					<!-- //로그인 후 -->
+					<!-- gnb -->
+					<nav class="gnb">
+						<ul>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb01_off.png" alt="투자하기" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0101.png" alt="상품랭킹" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0102.png" alt="PB/트레이더" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0103.png" alt="상품검색" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0104.png" alt="포트폴리오" /></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb02_off.png" alt="투자받기" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0201.png" alt="상품등록" /></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb03_off.png" alt="Lounge" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0301.png" alt="My Lounge" /></a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<!-- //gnb -->
+				</div>
+			</div>
+		</header>
+		<!-- header -->
+		<!-- container -->
+		<div class="container join">
+			<section class="area">
+				<div class="page_title_area">
+					<h2 class="page_title n_squere">회원가입</h2>
+					<p class="page_summary">시스메틱 홈페이지를 찾아주셔서 감사합니다. 약관에 동의하셔야 가입이 가능합니다.</p>
+				</div>
+				<div class="content_area step03">
+					<form action="">
+						<fieldset>
+							<legend class="screen_out">정보 입력</legend>
+							<div class="step_view">03.정보 입력</div>
+							<div class="group">
+								<h3>필수정보입력</h3>
+								<table class="form_tbl">
+									<colgroup>
+										<col style="width:164px" />
+										<col style="width:826px" />
+									</colgroup>
+									<tbody>
+										<tr>
+											<th>이름</th>
+											<td>
+												<div class="wrapping">
+													<div class="input_box" style="width:298px;">
+														<input type="text" id="" name="" placeholder="이름을 입력해주세요." />
+													</div>
+													<button type="button" class="btn_default">실명인증</button>
+												</div>
+											</td>
+										</tr>
+										<tr class="high">
+											<th>이메일</th>
+											<td>
+												<div class="wrapping">
+													<div class="input_box" style="width:208px;">
+														<input type="text" id="" name="" />
+													</div>
+													<span class="inner_txt">@</span>
+													<div class="input_box" style="width:208px;">
+														<input type="text" id="" name="" />
+													</div>
+													<div class="custom_selectbox" style="margin-left:10px; width:208px;">
+														<label for="email_choice">이메일을 선택해주세요.</label>
+														<select id="email_choice" name="roomName">
+															<option value="" selected="selected">이메일을 선택해주세요.</option>
+															<option value="">naver.com</option>
+															<option value="">lycos.com</option>
+														</select>
+													</div>
+													<button type="button" class="btn_default" onclick="commonLayerOpen('overlap_email')">중복확인</button>
+												</div>
+												<p class="txt_summary">* 사이트 이용 시 아이디로 사용됩니다.</p>
+											</td>
+										</tr>
+										<tr>
+											<th>비밀번호</th>
+											<td>
+												<div class="wrapping">
+													<div class="input_box" style="margin-right:24px; width:298px;">
+														<input type="password" id="" name="" placeholder="비밀번호를 입력해주세요." />
+													</div>
+													<p class="txt_summary">* 비밀번호는 문자, 숫자포함 6~20자로 되어야 합니다.</p>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<th>비밀번호 확인</th>
+											<td>
+												<div class="wrapping">
+													<div class="input_box" style="width:298px;">
+														<input type="password" id="" name="" placeholder="비밀번호를 다시 입력해주세요." />
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<th>휴대폰번호</th>
+											<td>
+												<div class="wrapping">
+													<div class="input_box" style="margin-right:24px; width:298px;">
+														<input type="text" id="" name="" placeholder="휴대폰번호를 입력해주세요." />
+													</div>
+													<p class="txt_summary">* - 없이 숫자만 입력해 주세요.</p>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							
+							<div class="group">
+								<h3>추가정보</h3>
+								<table class="form_tbl">
+									<colgroup>
+										<col style="width:164px" />
+										<col style="width:826px" />
+									</colgroup>
+									<tbody>
+										<tr class="photo">
+											<th>프로필이미지</th>
+											<td>
+												<div class="wrapping photo">
+													<div class="photo_box"></div>
+													<p class="txt_summary">* 반드시 가입자 본인의 사진을 올려야 합니다.</p>
+													<input type="file" id="photo_upload" name="photo_upload" />
+													<label for="photo_upload" class="btn_default">사진첨부</label>
+													<button type="button" class="btn_default">삭제하기</button>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<th>닉네임</th>
+											<td>
+												<div class="wrapping">
+													<div class="input_box" style="margin-right:10px; width:298px;">
+														<input type="text" id="" name="" placeholder="닉네임을 입력해주세요." />
+													</div>
+													<p class="txt_summary">* 사이트 이용 시 사용할 이름을 입력해 주세요.</p>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<th>생년월일</th>
+											<td>
+												<div class="wrapping">
+													<div class="input_box" style="margin-right:10px; width:298px;">
+														<input type="text" id="" name="" placeholder="생년월일을 다시 입력해주세요." />
+													</div>
+													<p class="txt_summary">* 숫자만 입력해 주세요. ex)19801022</p>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<th>성별</th>
+											<td>
+												<div class="choice_area">
+													<input type="radio" id="male" name="gender" checked="checked" />
+													<label for="male">남성</label>
+													<input type="radio" id="female" name="gender" />
+													<label for="female">여성</label>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<th>지역</th>
+											<td>
+												<div class="wrapping">
+													<div class="custom_selectbox" style="margin-right:10px; width:188px;">
+														<label for="area_choice">지역 선택</label>
+														<select id="area_choice" name="roomName">
+															<option value="" selected="selected">지역 선택</option>
+															<option value="">서울</option>
+															<option value="">경기</option>
+														</select>
+													</div>
+													<div class="input_box" style="width:188px;">
+														<input type="text" id="" name="" placeholder="시/구/군 입력" />
+													</div>
+												</div>
+											</td>
+										</tr>
+										<tr class="more_high">
+											<th>지점</th>
+											<td>
+												<div class="wrapping">
+													<div class="custom_selectbox" style="margin-right:10px; width:188px;">
+														<label for="brand_choice">증권사 선택</label>
+														<select id="brand_choice" name="roomName">
+															<option value="" selected="selected">증권사 선택</option>
+															<option value="">삼성증권</option>
+															<option value="">KB증권</option>
+														</select>
+													</div>
+													<div class="custom_selectbox" style="margin-right:10px; width:188px;">
+														<label for="area_choice2">지역 선택</label>
+														<select id="area_choice2" name="roomName">
+															<option value="" selected="selected">지역 선택</option>
+															<option value="">서울</option>
+															<option value="">경기</option>
+														</select>
+													</div>
+													<div class="input_box" style="margin-right:10px; width:188px;">
+														<input type="text" id="" name="" placeholder="시/구/군 입력" />
+													</div>
+													<div class="input_box" style="width:188px;">
+														<input type="text" id="" name="" placeholder="지점 입력" />
+													</div>
+												</div>
+												<div class="input_box" style="margin-top:10px; width:788px;">
+													<input type="text" id="" name="" placeholder="구/군 이하 상세주소 입력" style="padding:0 1.5%; width:97%;" />
+												</div>
+											</td>
+										</tr>
+										<tr class="photo">
+											<th>명함이미지</th>
+											<td>
+												<div class="wrapping photo namecard">
+													<div class="photo_box"></div>
+													<input type="file" id="photo_upload2" name="photo_upload2" />
+													<label for="photo_upload2" class="btn_default">사진첨부</label>
+													<button type="button" class="btn_default">삭제하기</button>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<div class="group">
+								<h3>정보수신동의</h3>
+								<div class="agree_box">
+									<div class="agree01">
+										<input type="checkbox" id="agree01" name="agree01" />
+										<label for="agree01">관심 전략과 포트폴리오 관련 정보를 수신 동의합니다.</label>
+									</div>
+									<div class="agree02">
+										<input type="checkbox" id="agree02" name="agree02" />
+										<label for="agree02">전략 및 정보성 알림에 수신 동의합니다.</label>
+									</div>
+								</div>
+							</div>
+							
+							<div class="group">
+								<div class="check_area">
+									<input type="checkbox" id="check01" name="check01">
+									<label for="check01">PB회원 이용약관에 동의합니다.</label>
+								</div>
+								<div class="cont_area">
+									<div class="cont">
+2017년 4월1일 제정<br /><br />
+
+<strong class="title">제 1조 (목적)</strong>
+
+이 약관은 시스메틱(이하 "회사")주식회사가 온라인으로 제공하는 시스메틱 온라인 플랫폼(웹, 모바일 서비스)을 통해 들어온 고객(회원)들의 상담업무를 수행하는 중개사(증권회사, 선물회사, 은행의 임직원과 기타 금융상품 판매업체의 임직원)의 PB(Private Banker)(이하 "파트너")간 체결하는 업무 계약입니다. 본 약관은 계약에 따른 업무 수행을 함에 있어 관련 법령을 준수하고  이용에 관한 권리, 의무 및 책임사항 등 신의성실의 원칙에 따라 업무에 임하는 것을 목적으로 합니다. <br />
+체결하게 되는 계약은 회사와 파트너가 각각 서비스 이용 계약에 따라 회사의 서비스 이용 약관에 동의하는 것으로 그 효력이 있으며 계약에 명시되지 않은 항목에 대해서는 회사의 이용약관을 따르게 됩니다.
+
+<strong class="title">제 2조 (용어)</strong>
+
+이 약관에서 사용하는 용어의 정의는 다음 각 호와 같다.<br />
+1.	“플랫폼” 이용자가 컴퓨터, 휴대형단말기 등 유·무선 정보통신설비를 통하여 금융상품 상담 및 투자중개, 성과정보 입력 등의 방식으로 참여할 수 있도록 중개하는 회사의 플랫폼을 말합니다.<br />
+2.	“중개사” 증권 & 선물회사, 혹은 그에 준하는 중개사를 의미합니다. <br />
+3.	“ PB(Private Banker) 이하 파트너” 라 함은 중개사로서 금융상품을 판매하는 증권회사와 선물회사, 은행의 임직원과 기타 금융상품 판매업체의 임직원을 의미합니다.<br />
+4.	“트레이더” 금융과 파생상품 등의 투자를 통해 이익을 낼 목적으로 매매하는 사람을 의미합니다. 개인, 법인(투자자문사, 사모펀드운용회사 등) 형태로 존재 가능합니다.<br />
+5.	“일반회원 또는 투자가” 플랫폼에 접속하여, 표준 가입약관에 따라 회사와 약관동의를 체결하고 회원 가입을 한 자로서 회사가 제공하는 정보를 지속적으로 제공받으며, 플랫폼을 계속적으로 이용할 수 있는 자를 의미합니다. <br />
+6.	“라운지(Lounge) “ 중개사의 파트너(PB)만의 활동공간으로 회원간의 소통역할을 하는 개인화된 블로그를 의미합니다. 파트너(PB)의 프로필, 상품정보, 컬럼을 쓸 수 있는 블로그와 해당 파트너(PB)를 평가할 수 있는 평가 페이지로 구분되어 있습니다.<br />
+
+<strong class="title">제 3조 역할과 의무</strong>
+
+계약의 성립과 계약 기간의 개시와 종료<br />
+1.	본 계약은 해당 업무에 대해 회사와 파트너(PB)가 시스메틱 플랫폼에 가입하여 상호 확인함으로써 성립하게 됩니다. 그에 따른 계약 기간은 파트너의 파트너(PB)회원 타입형태의 가입시부터 탈퇴시까지 유효합니다. <br />
+2.	계약성립은 시스메틱 플랫폼에 파트너(PB)가 PB형태로 가입신청을 완료하고 이를 회사에서 승인함으로써 성립합니다. 승인 시 파트너(PB)는 반드시 중개사에 근무하고 있다는 증빙(재직증명서 이미지 사본이나 명함 이미지 사본)을 온라인 또는 오프라인으로 제출하여 이를 회사가 최종 확인하고 승인함으로써 계약이 개시됩니다.<br /><br />
+계약개시 및 종료 후 책임과 의무<br />
+1.	파트너(PB)는 계약의 종료 후에는 시스메틱 채널 내에서 취득한 고객정보와 관련정보를 개인의 목적으로 활용할 수 없습니다. 계약기간이라도 시스메틱의 규정에 위배되는 행위, 중개사의 준법규정에 위배되는 행위 등이 발견 될 경우 1차 경고 할 수 있으며 재차 위배행위가 발생할 경우 회사는 일방적으로 파트너와의 계약을 해지할 수 있습니다.<br />
+2.	파트너(PB)는 법령, 관계 기관 규정 등 법적 규제 내에서 관련 서비스를 제공하며, 해당 서비스는 시스메틱의 내부 규정에 따라야 합니다. <br />
+3.	시스메틱은 법적 기준 내에서 통합 서비스가 제공 될 수 있도록 하며, 시스메틱의 법적 기준 및 관련 내용을 PB는 충실히 이행하여야 합니다. 만약, 이를 위반할 경우, 모든 법적 책임은 파트너(PB)에게 귀속됩니다. <br />
+4.	파트너(PB)는 고객과 투자자의 원만한 관계를 위해서, 적극적 마케팅 활동 및 대외 홍보에 최선을 다하여, 최상의 서비스를 제공해야 합니다. <br />
+
+<strong class="title">제 4조 권리와 의무</strong>
+
+1.	시스메틱에 제공되는 모든 정보에 대해서 지적 소유권은 회사가 갖습니다. 다만, 파트너(PB)와 트레이더, 그리고 일반(투자자) 회원 등이 합의에 이루어진 공동 정보 및 기획은 사전에 합의한 기준에 따라서, 그 소유권이 개별적 귀속됩니다. 여기서 말하는 공동 기획 및 기존의 서비스가 아닌, 합의에 따른 신규 서비스를 의미합니다. <br />
+2.	시스메틱에서, 제휴한 회사 이외에 재판매 및 정보 서비스를 제공할 경우, 모든 판매권 및 운영권은 현재 계약이 이행되는 한 시스메틱으로 자동 귀속됩니다. <br />
+3.	본 계약과 관련된 모든 서비스와 관련하여, 장애가 발생하였을 경우, 상호 협조하여, 신속히 조치 합니다. <br />
+4.	비즈니스의 안정화를 위하여, 필요한 추가 컨텐츠 및 솔루션 개발을 상호 지원하며, 공동 프로모션 및 홍보에 노력합니다. <br />
+5.	파트너(PB)와 트레이더들은 일반(투자가)에게 제공되는 모든 서비스의 제공 방법과 내용들은 자본 시장 법률에 위반되는 내용이 아니어야 합니다. <br />
+6.	트레이더 및 일반(투자자)가 제공하는 정보에 오류 및 문제의 소지가 있을 경우, 시스메틱은 이를 시정을 요구할 수 있으며, 파트너(PB)는 이를 적극 수용해야 합니다. 만약, 이를 수용하지 않을 경우, 시스메틱은 해당 관련 서비스 및 계약 내용에 동의한 서비스를 제한하거나 필요한 제제 가할 수 있습니다. <br />
+7.	해당 제휴 업무로 습득하게 된 이용자 정보 및 개발 계획, 마케팅 전략, 등의 영업 상의 비밀 내용들을 계약 기간 이후에도 제 3자에게 제공하거나, 계약 이행 목적 이외 다른 용도로 사용되어서는 아니되며, 이에 대하여 시스메틱이 손해가 발생할 경우, 파트너(PB)는 이를 전액 배상할 책임이 있습니다. <br />
+8.	시스메틱에서 제공된 모든 컨텐츠 (온라인, 무선 인터넷, 스마트폰, 태블릿, 연계된 APPLICATIONS 등) 중, 무료로 이용되는 것들을, 외부에 유료로 제공할 수 없습니다. (단, 사전에 합의된 경우 제외)<br />
+9.	시스메틱에서 제공한 서비스 이외에 발생한 분쟁에 대해서, 이용자에게 피해 사실이 확인될 경우, 파트너(PB)는 모든 손해에 대해 배상하여야 합니다. 
+
+<strong class="title">제 5조 개인 정보 처리 및 관리 </strong>
+
+1.	시스메틱과 계약 기간은 만료 이후에도 기존 업무 이외에 목적을 벗어난, 개인 정보를 이용하거나 이를 제 3자에게 제공 또는 외부에 누설해서는 안됩니다. <br />
+2.	계약이 해지되거나, 만료된 이후에는 각자 보유하고 있는 개인 정보를 즉시 파기하거나 시스메틱에 반납해야 합니다. 아울러, 파기된 개인 정보의 경우, 그 결과를 즉시 시스메틱에 통보해야 합니다. <br />
+&nbsp;①	개인정보 처리 현황<br />
+&nbsp;②	개인정보의 접근 또는 접속 현황<br />
+&nbsp;③	개인정보 접근 또는 접속 비대상자<br />
+&nbsp;④	목적 이외에 이용 금지<br />
+&nbsp;⑤	암호화 등 안정성 확보 조치 이행<br />
+&nbsp;⑥	그 밖에 개인 정보의 보호를 위하여 필요한 사항들
+
+<strong class="title">제 6조 회사의 면책</strong>
+
+	1.	회사는 천재지변 또는 이에 준하는 불가항력적 사유로 인한 정보통신설비의 보수점검, 교체 또는 고장, 통신의 두절 등으로 인하여 일시적 또는 종국적으로 플랫폼을 제공할 수 없는 경우, 플랫폼 제공에 관한 책임이 면제되고, 이로 인한 이용자의 손해에 대하여 책임을 지지 않습니다. 이 경우 회사는 플랫폼에 게시하거나 기타의 방법으로 회원들에게 통지하여야 하며, 불가피한 경우에는 사후통지로 대체할 수 있습니다.<br />
+
+	2.	회사는 파트너(PB)와 트레이더에 관한 정보를 제공하는 역할을 할 뿐 회원 간의 또는 회원과 비회원인 이용자 간의 투자과정의 문제, 이용자가 플랫폼상의 정보를 통하여 얻은 기대 등으로 인하여 입은 손해에 대하여는 책임을 지지 않습니다.<br />
+
+	3.	회사는 회원의 다음과 같은 행위로 인한 피해에 대하여 책임을 지지 않습니다.<br />
+&nbsp;①	회원의 허위 또는 과장된 정보의 게시<br />
+&nbsp;②	파트너(PB), 트레이더와 회원(투자가) 간의 당사자간의 개별적 계약을 통해 발생할 수 있는 결과<br />
+	4.	회사는 이용자가 혹은  제3자가 플랫폼의 정보를 이용하여 회사가 제공하는 플랫폼을 통하지 아니하고 이루어지는 거래 등에 대하여 책임을 지지 않습니다. <br />
+	5.	회사는 회원 및 비회원이 게시 또는 전송한 자료 및 본 플랫폼으로부터 회원 및 비회원이 제공받을 수 있는 모든 자료들의 진위, 신뢰도, 정확성 등 그 내용에 대해서는 책임지지 않습니다.<br />
+	6.	회사는 회원 및 비회원 상호간 또는 회원, 비회원과 제3자 상호간에 플랫폼을 매개로 하여 거래 등을 한 경우에 그로부터 발생하는 일체의 손해에 대하여 책임지지 않습니다.<br />
+
+	7.	회사는 회원, 비회원이나 제3자에 의해 표출된 어떠한 의견이나 정보에 대해 확신이나 대표할 의무가 없으며 의견을 승인하거나 반대하거나 수정하지 않습니다. 회사는 어떠한 경우라도 회원이 플랫폼에 담긴 정보에 의존해 얻은 이득이나 입은 손해에 대해 책임이 없습니다.<br />
+	8.	회사는 회원, 비회원 등이 플랫폼의 이용과 관련하여 기대하는 이익에 관하여 책임을 부담하지 않습니다.<br />
+
+	9.	회사는 이용자 또는 기타 유관기관이 플랫폼에 게재한 정보에 대해 정확성, 신뢰도에 대하여 보장하지 않습니다. 따라서 회사는 이용자가 위 내용을 이용함으로 인해 입게 된 모든 종류의 손실이나 손해에 대하여 책임을 부담하지 않습니다.<br />
+
+	10.	회사는 이용자의 플랫폼 이용과 관련하여 이용자에게 발생한 손해 중 이용자의 고의, 과실에 의한 손해 및 다른 이용자로 인해 입게 되는 정신적 피해에 대하여 보상할 책임을 지지 않습니다. <br />
+
+	11.	회사는 관련 법령, 정부 정책 등에 의하여 서비스 또는 회원에 따라 서비스 이용시간 등을 제한할 수 있으며, 이러한 제한사항 및 제한에 따라 발생하는 서비스 이용 관련 제반사항에 대해서는 책임이 면제됩니다.
+
+<strong class="title">제 7조 기타 의무 사항</strong>
+
+1.	회사와 파트너(PB) 는 신의 성실의 원칙에 따라 이행합니다.<br />
+2.	회사와 파트너(PB)  분쟁이 발생할 경우, 상호 협의에 따라 해결하고, 합의가 원활하게 이루어지지 않을 경우, 시스메틱의 민사 소송법상 관할권을 가지는 법원으로 합니다.<br />
+3.	회사와 파트너(PB)  사이에 발생한 분쟁에 관한 소송에는 일반적 상법에 준하는 관례에 따릅니다. 
+
+									</div>
+								</div>
+							</div>
+
+							<div class="btn_area">
+								<a href="javascript:;" class="btn_common_gray btn_cancel">취소</a>
+								<button type="button" class="btn_common_red btn_next_step">가입완료</button>
+							</div>
+						</fieldset>
+					</form>					
+				</div>
+			</section>
+		</div>
+		<!-- //container -->
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="top_area">
+				<div class="area">
+					<div class="links">
+						<a href="javascript:;">이용약관</a>
+						<a href="javascript:;" class="privacy">개인정보 취급방침</a>
+						<a href="javascript:;">교육안내</a>
+						<a href="javascript:;">이용안내</a>
+						<a href="javascript:;">회사소개</a>
+						<a href="javascript:;">공지사항</a>
+						<a href="javascript:;">주식 빅데이터</a>
+						<a href="javascript:;">Media Room</a>
+						<a href="javascript:;">고객센터</a>					</div>
+					<a href="#" class="btn_page_top"><img src="../images/common/btn_page_top.gif" alt="TOP" /></a>
+				</div>
+			</div>
+			<div class="bottom_area">
+				<div class="area">
+					<div class="footer_logo">
+						<img src="../images/common/img_footer_logo.png" alt="SYSMETIC" />
+					</div>
+					<div class="company_info">
+						<dl>
+							<dt>사업자 등록번호 : </dt>
+							<dd>711-86-00050</dd>
+						</dl>
+						<dl>
+							<dt>통신판매업신고 : </dt>
+							<dd>제2015-서울 영등포-1469호</dd>
+						</dl>
+						<dl>
+							<dt>특허출원번호 : </dt>
+							<dd>10-2016-00262203</dd>
+						</dl>
+						<dl>
+							<dt>주소지 : </dt>
+							<dd>서울시 영등포구 국제금융로2길 37, 2301호</dd>
+						</dl>
+						<p class="copyright"><img src="../images/common/txt_copyright.png" alt="COPYRIGHT ⓒ SYSMETIC ALL RIGHT RESERVED" /></p>
+					</div>
+					<div class="site_summary">
+						<p>
+							시스메틱의 모든 사이트의 내용은 정보를 제공하기 위함이며, 투자권유와 주식 및 파생상품<br />매매를 목적으로 하고 있지 않습니다. <br />
+							따라서 본 사이트의 수익률과 관련정보에 대해서는 (주)시스메틱은 어떠한 책임도 없습니다.<br />
+							또한 본 사이트를 통해 제공받게 되는 운용성과의 결과에 대해서도 (주)시스메틱은 <br />
+							어떠한 책임이 없으며 모든 책임과 활용되는 모든 정보는 투자자 본인의 책임입니다.
+						</p>
+					</div>
+				</div>				
+			</div>
+		</footer>
+		<!-- //footer -->
+	</div>
+	<!-- //wrapper -->
+
+<!-- 레이어팝업 : 이메일 중복 -->
+<article class="layer_popup overlap_email">
+	<div class="dim" onclick="commonLayerClose('overlap_email')"></div>
+	<div class="contents">
+		<div class="layer_header">
+			<h2>안내</h2>
+			<button type="button" title="레이어 팝업 닫기" class="btn_close_layer" onclick="commonLayerClose('overlap_email')"></button>
+		</div>
+		<div class="cont">
+			<!-- 회원정보 맞을 시 -->
+			<p class="txt_info">
+				<strong class="mark">이미 가입된 이메일 주소 입니다.</strong><br />
+				다른 이메일 주소로 가입해 주세요.
+			</p>
+			<!-- 회원정보 맞을 시 -->
+			<button type="button" class="btn_common_gray" onclick="commonLayerClose('overlap_email')">확인</button>
+		</div>
+	</div>
+</article>
+<!-- //레이어팝업 : 이메일 중복 -->
+
+<script>
+	//custom selectbox
+    var select = $('select');
+    for(var i = 0; i < select.length; i++){
+        var idxData = select.eq(i).children('option:selected').text();
+        select.eq(i).siblings('label').text(idxData);
+    }
+    select.change(function(){
+        var select_name = $(this).children("option:selected").text();
+        $(this).siblings("label").text(select_name);
+    });
+</script>
+</body>
+</html> 

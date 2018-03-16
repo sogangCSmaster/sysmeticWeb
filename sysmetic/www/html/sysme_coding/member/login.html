@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta property="og:type" content='website' />
+	<meta property="og:title" content="SYSMETIC">
+	<meta property='og:site_name' content='SYSMETIC' />
+	<meta property="og:title" content='SYSMETIC' />
+	<meta property="og:description" content='SYSMETIC' />
+	<title>로그인 | SYSMETIC</title>
+	<link rel="stylesheet" href="../css/jquery_ui.css">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/sub.css">
+	<script src="../js/jquery-1.10.1.min.js"></script>
+	<script src="../js/jquery-ui-1.10.3.custom.min.js"></script>
+	<script src="../js/html5shiv.js"></script>
+	<script src="../js/common.js"></script>
+</head>
+<body>
+	<!-- wrapper -->
+	<div class="wrapper">
+		<!-- header -->
+		<header class="header">
+			<div class="area">
+				<h1 class="header_logo"><a href="javascript:;"><img src="../images/common/img_header_logo.png" alt="SYSMETIC" /></a></h1>
+				<div class="cont_box">
+					<!-- 로그인 전 -->
+					<div class="member before_login">
+						<div class="links">
+							<a href="javascript:;">로그인</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">회원가입</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">이용안내</a>
+							<span class="bar">/</span>
+							<a href="javascript:;">고객센터</a>
+						</div>
+						<a href="javascript:;" class="btn_bigdata">주식 빅데이터</a>
+					</div>
+					<!-- //로그인 전 -->
+					<!-- 로그인 후 
+					<div class="member after_login">
+						<div class="links">
+							<a href="javascript:;"><img src="../images/common/ico_header_coffee.png" alt="" /> My Lounge</a>
+							<a href="javascript:;">PB 게시판</a>
+							<a href="javascript:;">마이페이지</a>
+							<a href="javascript:;">로그아웃</a>
+						</div>
+						<a href="javascript:;" class="btn_bigdata">주식 빅데이터</a>
+					</div>
+					<!-- //로그인 후 -->
+					<!-- gnb -->
+					<nav class="gnb">
+						<ul>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb01_off.png" alt="투자하기" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0101.png" alt="상품랭킹" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0102.png" alt="PB/트레이더" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0103.png" alt="상품검색" /></a></li>
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0104.png" alt="포트폴리오" /></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb02_off.png" alt="투자받기" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0201.png" alt="상품등록" /></a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="javascript:;"><img src="../images/common/txt_gnb03_off.png" alt="Lounge" /></a>
+								<ul class="sub">
+									<li><a href="javascript:;"><img src="../images/common/txt_gnb0301.png" alt="My Lounge" /></a></li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<!-- //gnb -->
+				</div>
+			</div>
+		</header>
+		<!-- header -->
+		<!-- container -->
+		<div class="container login">
+			<div class="login_box">
+				<form action="">
+					<fieldset>
+						<legend class="screen_out">로그인</legend>
+						<div class="top_area">
+							<div class="logo"><img src="../images/common/img_footer_logo.png" alt="SYSMETIC" /></div>
+							<p class="login_summary">회원님이 가입하셨던 아이디/비밀번호를 입력해주세요.</p>
+							<div class="input_box">
+								<input type="text" id="" name="" placeholder="이메일주소를 입력해주세요." />
+							</div>
+							<div class="input_box">
+								<input type="password" id="" name="" placeholder="비밀번호를 입력해주세요." />
+							</div>
+							<button type="button" class="btn_login">로그인</button>
+							<div class="fnc">
+								<div class="remember">
+									<input type="checkbox" id="remember_id" name="remember_id" />
+									<label for="remember_id">아이디 기억하기</label>
+								</div>
+								
+								<div class="find_area">
+									<a href="javascript:;" class="btn_find" onclick="commonLayerOpen('find_email')">이메일찾기</a> /
+									<a href="javascript:;" class="btn_find" onclick="commonLayerOpen('find_password')">비밀번호 찾기</a>
+								</div>
+							</div>
+						</div>
+						<div class="bottom_area">
+							<p class="join_summary">
+								아직 시스메틱 회원이 아니신가요? <a href="javascript:;">회원가입</a>을 해 주세요. 
+							</p>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+		<!-- //container -->
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="top_area">
+				<div class="area">
+					<div class="links">
+						<a href="javascript:;">이용약관</a>
+						<a href="javascript:;" class="privacy">개인정보 취급방침</a>
+						<a href="javascript:;">교육안내</a>
+						<a href="javascript:;">이용안내</a>
+						<a href="javascript:;">회사소개</a>
+						<a href="javascript:;">공지사항</a>
+						<a href="javascript:;">주식 빅데이터</a>
+						<a href="javascript:;">Media Room</a>
+						<a href="javascript:;">고객센터</a>					</div>
+					<a href="#" class="btn_page_top"><img src="../images/common/btn_page_top.gif" alt="TOP" /></a>
+				</div>
+			</div>
+			<div class="bottom_area">
+				<div class="area">
+					<div class="footer_logo">
+						<img src="../images/common/img_footer_logo.png" alt="SYSMETIC" />
+					</div>
+					<div class="company_info">
+						<dl>
+							<dt>사업자 등록번호 : </dt>
+							<dd>711-86-00050</dd>
+						</dl>
+						<dl>
+							<dt>통신판매업신고 : </dt>
+							<dd>제2015-서울 영등포-1469호</dd>
+						</dl>
+						<dl>
+							<dt>특허출원번호 : </dt>
+							<dd>10-2016-00262203</dd>
+						</dl>
+						<dl>
+							<dt>주소지 : </dt>
+							<dd>서울시 영등포구 국제금융로2길 37, 2301호</dd>
+						</dl>
+						<p class="copyright"><img src="../images/common/txt_copyright.png" alt="COPYRIGHT ⓒ SYSMETIC ALL RIGHT RESERVED" /></p>
+					</div>
+					<div class="site_summary">
+						<p>
+							시스메틱의 모든 사이트의 내용은 정보를 제공하기 위함이며, 투자권유와 주식 및 파생상품<br />매매를 목적으로 하고 있지 않습니다. <br />
+							따라서 본 사이트의 수익률과 관련정보에 대해서는 (주)시스메틱은 어떠한 책임도 없습니다.<br />
+							또한 본 사이트를 통해 제공받게 되는 운용성과의 결과에 대해서도 (주)시스메틱은 <br />
+							어떠한 책임이 없으며 모든 책임과 활용되는 모든 정보는 투자자 본인의 책임입니다.
+						</p>
+					</div>
+				</div>				
+			</div>
+		</footer>
+		<!-- //footer -->
+	</div>
+	<!-- //wrapper -->
+
+<!-- 레이어팝업 : 이메일 찾기 -->
+<article class="layer_popup find_email">
+	<div class="dim" onclick="commonLayerClose('find_email')"></div>
+	<div class="contents">
+		<div class="layer_header">
+			<h2>이메일 찾기</h2>
+			<button type="button" title="레이어 팝업 닫기" class="btn_close_layer" onclick="commonLayerClose('find_email')"></button>
+		</div>
+		<div class="cont">
+			<form action="">
+				<fieldset>
+					<legend class="screen_out">이메일 찾기</legend>
+					<div class="form_area">
+						<p class="txt_info">
+							가입된 이메일을 찾기 위해 <br />휴대폰 번호 인증이 필요합니다.
+						</p>
+						<p class="txt_guide">회원가입 시 입력한 휴대폰 번호로 인증해 주세요</p>
+						<div class="certify_area">
+							<div class="input_box">
+								<input type="text" id="" name="" placeholder="휴대폰 번호를 입력해주세요.">
+							</div>
+							<button type="button" class="btn_cetify" onclick="commonLayerClose('find_email'); commonLayerOpen('find_email02')">인증번호발송</button>
+						</div>
+						<button type="submit" class="btn_common_gray" onclick="commonLayerClose('find_email')">닫기</button>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</article>
+<!-- //레이어팝업 : 이메일 찾기 -->
+
+<!-- 레이어팝업 : 이메일 찾기2 -->
+<article class="layer_popup find_email02">
+	<div class="dim" onclick="commonLayerClose('find_email02')"></div>
+	<div class="contents">
+		<div class="layer_header">
+			<h2>이메일 찾기</h2>
+			<button type="button" title="레이어 팝업 닫기" class="btn_close_layer" onclick="commonLayerClose('find_email02')"></button>
+		</div>
+		<div class="cont">
+			<form action="">
+				<fieldset>
+					<legend class="screen_out">인증번호 입력</legend>
+					<div class="form_area">
+						<p class="txt_info">
+							전송된 인증번호를 입력하세요.
+						</p>
+						<div class="certify_area">
+							<div class="input_box">
+								<input type="text" id="" name="" placeholder="휴대폰 번호를 입력해주세요.">
+							</div>
+							<div class="btn_area">
+								<button type="button" class="btn_check" onclick="commonLayerClose('find_email02'); commonLayerOpen('find_email_result')">확인</button>
+								<button type="button" class="btn_resend">재전송</button>
+							</div>
+						</div>
+						<button type="submit" class="btn_common_gray" onclick="commonLayerClose('find_email02')">닫기</button>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</article>
+<!-- //레이어팝업 : 이메일 찾기2 -->
+
+<!-- 레이어팝업 : 이메일 찾기 완료 -->
+<article class="layer_popup find_email_result">
+	<div class="dim" onclick="commonLayerClose('find_email_result')"></div>
+	<div class="contents">
+		<div class="layer_header">
+			<h2>이메일 찾기</h2>
+			<button type="button" title="레이어 팝업 닫기" class="btn_close_layer" onclick="commonLayerClose('find_email_result')"></button>
+		</div>
+		<div class="cont">
+			<!-- 회원정보가 있을 경우 -->
+			<p class="txt_info">
+				해당 휴대폰 번호로 가입된 이메일은<br />
+				<strong class="mark">Dhfjsdfgs**@naver.com</strong> 입니다.
+			</p>
+			<div class="btn_area half">
+				<a href="javascript:;" class="btn_common_gray" onclick="commonLayerClose('find_email_result')">로그인 하기</a>
+				<a href="javascript:;" class="btn_common_red" onclick="commonLayerClose('find_email_result'); commonLayerOpen('find_password');">비밀번호 찾기</a>
+			</div>
+			<!-- //회원정보가 있을 경우 -->
+
+			<!-- 회원정보가 없을 경우 
+			<p class="txt_info">
+				<strong class="mark">해당 휴대폰 번호로 가입된 이메일이 없습니다.</strong><br />
+				다시한번 확인해주세요.
+			</p>
+			<div class="btn_area half">
+				<button type="button" class="btn_common_gray" onclick="commonLayerClose('find_email_result');"
+				>닫기</button>
+				<a href="javascript:;" class="btn_common_red" onclick="commonLayerClose('find_email_result'); commonLayerOpen('find_email');">이메일 찾기</a>
+			</div>
+			<!-- //회원정보가 없을 경우 -->
+		</div>
+	</div>
+</article>
+<!-- //레이어팝업 : 이메일 찾기 완료 -->
+
+<!-- 레이어팝업 : 비밀번호 재설정 -->
+<article class="layer_popup find_password">
+	<div class="dim" onclick="commonLayerClose('find_password')"></div>
+	<div class="contents">
+		<div class="layer_header">
+			<h2>비밀번호 재설정</h2>
+			<button type="button" title="레이어 팝업 닫기" class="btn_close_layer" onclick="commonLayerClose('find_password')"></button>
+		</div>
+		<div class="cont">
+			<form action="">
+				<fieldset>
+					<legend class="screen_out">이메일 주소 입력</legend>
+					<div class="form_area">
+						<p class="txt_info">
+							<strong class="mark">회원으로 가입된 이메일 주소를 입력해 주세요.</strong>
+						</p>
+						<div class="input_box">
+							<input type="text" id="" name="" placeholder="이메일 주소를 입력해주세요." />
+						</div>
+						<div class="btn_area half">
+							<button type="button" class="btn_common_gray" onclick="commonLayerClose('find_password')">닫기</button>
+							<a href="javascript:;" class="btn_common_red">비밀번호 재설정</a>
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</article>
+<!-- //레이어팝업 : 비밀번호 재설정 -->
+
+<!-- 레이어팝업 : 비밀번호 재설정 완료 -->
+<article class="layer_popup find_password_result">
+	<div class="dim" onclick="commonLayerClose('find_password_result')"></div>
+	<div class="contents">
+		<div class="layer_header">
+			<h2>비밀번호 재설정</h2>
+			<button type="button" title="레이어 팝업 닫기" class="btn_close_layer" onclick="commonLayerClose('find_password_result')"></button>
+		</div>
+		<div class="cont">
+			<!-- 회원정보 맞을 시 -->
+			<p class="txt_info">
+				<strong class="mark">임시 비밀번호가 발송되었습니다.</strong><br />
+				메일을 확인해 주세요.
+			</p>
+			<!-- 회원정보 맞을 시 -->
+			<!-- 회원정보 틀릴 시 
+			<p class="txt_info">
+				<strong class="mark">가입된 이메일이 아닙니다.</strong><br />
+				이메일 주소를 확인해 주세요.
+			</p>
+			<!-- 회원정보 틀릴 시 -->
+			<button type="button" class="btn_common_gray" onclick="commonLayerClose('find_password_result')">닫기</button>
+		</div>
+	</div>
+</article>
+<!-- //레이어팝업 : 비밀번호 재설정 완료 -->
+<script>
+
+</script>
+</body>
+</html>
